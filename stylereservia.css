@@ -1,0 +1,542 @@
+/* Mon fichier CSS */
+
+/* Responsive Options (a faire plus tard) */
+@media screen and (max-width: 880px)
+{}
+@media screen and (min-width: 881px)
+{}
+
+
+body
+{ 
+    font-family: 'Raleway', 'Arial';
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Conteneur de tous les blocs */
+.conteneur
+{
+    margin-top: 0px;
+    margin-block-end:0px;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1
+{
+    color: #000000; 
+    text-align: left;
+    font-size:1.3em;
+    font-family: 'Raleway', 'Arial';
+}
+
+
+h2
+{
+    color: #000000; 
+    text-align: left;
+    font-size:1.1em;
+    font-family: 'Raleway', 'Arial';
+
+}
+
+
+h3
+{
+    color: #000000; 
+    text-align: left;
+    font-size:0.93em;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Raleway', 'Arial';
+
+}
+
+/* Texte */
+p 
+{
+    color: #000000; 
+    font-size: 0.9em;
+    font-family: 'Raleway', 'Arial';
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+
+a:hover
+{
+    color: #0047b1; 
+}
+
+img:hover
+{
+opacity: 0.96;
+}
+
+
+/* Bloc Texte nav petit*/
+.menunav
+ {
+        display: column;
+        gap: 4px;
+        width: auto;
+        height: auto;
+        margin-right: 15px;
+    
+ }
+
+ /* Header = Logo + Menu nav*/
+ .header
+{
+display: flex;
+height: auto;
+justify-content: space-between;
+
+}
+
+/* Non réglés */
+.Bloclogo
+{
+    gap: 0px;
+    margin-left: 15px;
+
+}
+
+/* Bloc Nav de head Grand */
+.menunav
+{
+    display: flex;
+    gap: 13px;
+    height: 30px;
+    margin-top: 22px;
+    margin-right: 5px;
+
+}
+
+/* Texte dans Nav */
+.Texteheader
+{
+    color: #0065FC; 
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Filtre et logo */
+
+.Rondinfo
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 2px solid #F2F2F2;
+    justify-content: center;
+}
+
+.logoinfo
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    
+}
+
+
+/* Conteneur Hébergement */
+
+.conteneurhebergepopu
+{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+/* Conteneur Hébergement */
+
+.conteneurhebergement
+{
+    display: column;
+    justify-content:space-between;
+    padding: 41px;
+    height:545px;
+    margin-bottom: 0px;
+    width: 800px;
+    background-color:#f0f0f0;
+    border-radius: 30px;
+}
+
+
+/* Bloc Hébergement */
+
+.Blocshebergement
+{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    height: auto;
+    gap: 10px;
+    margin-bottom: 30px;
+    border: 0px solid black
+}
+
+/* Card hébergement */
+.Cardhébergement
+{
+display: column;
+width: auto;
+height: auto;
+text-align: left;
+background-color: white;
+border-radius: 20px;
+border: 5px #ffffff solid;
+box-shadow: 0 0 6px 3px #b1b1b14b;
+}
+
+
+/* Photo in hebergement */
+.Blocshebergement img
+{
+width: 235px;
+height: 113px;
+border-radius: 16px 16px 0% 0%;
+background-color: white
+
+}
+
+
+/* Texte dans Card */
+.Textehébergement
+{
+display: column;
+width: auto;
+height: auto;
+text-align: left;
+border: 0px solid rgb(255, 0, 0);
+background-color: white;
+padding-left: 13px;
+
+}
+
+
+/* Note dans Texte */
+.Noteétoiles
+{
+display: flex;
+justify-content: left;
+width: auto;
+height: auto;
+text-align: left;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 0px solid rgb(247, 0, 255);
+background-color: white;
+
+}
+
+
+
+
+/* Populaire */
+
+.Conteneurpopulaire
+{
+    width: 335px;
+    height:545px;
+    display: column;
+    justify-content:space-between;
+    margin: auto;
+    background-color:#f0f0f0;
+    padding: 41px;
+    border-radius: 30px;
+}
+
+.headerpopulaire
+{   
+    border: 0px solid rgb(0, 240, 12);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+.Blocspopulaire
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    gap: 26px;
+    width: auto;
+    height: auto;
+    border: 0px solid rgb(0, 80, 145);
+
+}
+
+/* Card populaires = Photo + Texte + Notes (étoiles) */
+.Cardpopulaires
+{
+display: flex;
+width: auto;
+height: auto;
+text-align: left;
+border: 5px #ffffff solid;
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 6px 3px #b1b1b14b;
+
+}
+
+
+/* Photo in blocspopulaire */
+.Blocspopulaire img
+{
+width: 126px;
+height: 132px;
+border-radius: 12% 0% 0% 12%;
+background-color: white
+
+}
+
+
+/* Texte in Card populaire  */
+.Textepopulaires
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 250px;
+height: auto;
+text-align: left;
+margin-left: 12px;
+padding-right: 10px;
+border: 0px solid rgb(255, 0, 0);
+background-color: white
+
+}
+
+
+/* Texte in Card populaire  */
+.Textetoppopulaires
+{
+display: column;
+width: auto;
+height: auto;
+text-align: left;
+border: 0px solid rgb(51, 255, 0);
+background-color: white
+
+}
+
+
+/* Activité à Marseilles */
+
+/* Photo in blocspopulaire / corn le haut */
+.Blocs1activités img
+{
+    width: 301px;
+    height: 395px;
+    border-radius: 16px 16px 0% 0%;
+    background-color: white;
+
+
+}
+
+/* Photo in blocspopulaire */
+.Blocs2activités img
+{
+    width: 301px;
+    border-radius: 16px 16px 0% 0%;
+    background-color: white
+
+}
+
+/* Les Card activités */
+.Cardactivités
+{
+display: column;
+height: auto;
+text-align: left;
+border-radius: 16px 16px 16px 16px;
+box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+
+}
+
+.Cardactivités1
+{
+display: column;
+height: 227px;
+text-align: left;
+border-radius: 16px 16px 16px 16px;
+box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+
+}
+
+.Cardactivités2
+{
+display: column;
+height: 171px;
+text-align: left;
+border-radius: 16px 16px 16px 16px;
+box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+
+}
+
+.Cardactivités3
+{
+display: column;
+height: 194px;
+text-align: left;
+border-radius: 16px 16px 16px 16px;
+box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+
+}
+
+.Cardactivités4
+{
+display: column;
+height: 202px;
+text-align: left;
+border-radius: 16px 16px 16px 16px;
+box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+
+}
+
+.Conteneuractivitésglobal
+{
+    width: auto;
+    height: auto;
+    display: column;
+    justify-content:space-between;
+    border: 0px solid blue;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.Conteneuractivitésblocs
+{
+    width: auto;
+    height: 445px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: flex;
+    margin: auto;
+    border: 0px tomato solid;
+}
+
+.Blocs1activités
+{
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 0px solid rgb(0, 22, 221);
+}
+
+
+.Blocs2activités
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border: 0px solid rgb(0, 89, 255);
+}
+
+
+
+.Texteactiv
+{
+    border: 0px solid rgb(255, 0, 0);
+    padding-left: 9px;
+    height: auto;
+    margin-top: 8px;
+}
+
+
+
+
+/* Footer */
+
+.Conteneurfooter
+{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    background-color:#F2F2F2;
+    padding: 50px;
+}
+
+.Blocsfooter
+{
+    display: flex;
+    justify-content:left;
+    margin: left;
+    height: auto;
+    gap: 225px;
+    margin-bottom: 20px;
+    width: auto;    
+    border: 2px solid #1900ff;
+}
+
+
+.bloctextefooter
+{
+    height: auto;
+    width: auto;
+    justify-content: column;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap:15px
+    border: 2px solid black
+
+}
+
+.textefooter
+{
+    color: #000000; 
+    font-size: 1.0em;
+    font-weight:300;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+
+.textefooterstrong
+{
+    color: #000000; 
+    font-size: 1.1em;
+    font-weight:600;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+
