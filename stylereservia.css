@@ -13,6 +13,9 @@ body
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    position: relative;
+    border:0px solid rgb(0, 68, 255)
+
 }
 
 /* Conteneur de tous les blocs */
@@ -23,6 +26,7 @@ body
     max-width: 1340px;
     margin-left: auto;
     margin-right: auto;
+    border: 0px solid rgb(255, 102, 0)
 }
 
 
@@ -60,7 +64,7 @@ h3
 p 
 {
     color: #000000; 
-    font-size: 0.9em;
+    font-size: 0.93em;
     font-family: 'Raleway', 'Arial';
     margin-top: 2px;
     margin-bottom: 2px;
@@ -129,15 +133,101 @@ justify-content: space-between;
 
 }
 
-/* Filtre et logo */
+
+/* Filtres */
+
+.Rondfiltres
+{
+    width: 45px;
+    height:45px;
+    border-radius: 100%;
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    justify-content: center;
+    position: relative;
+    bottom: 2px
+}
+
+.Logofiltres1
+{
+    position: relative;
+    left: 12.5px;
+    top: 13.5px
+    
+}
+
+.Logofiltres2
+{
+    position: relative;
+    left: 15px;
+    top: 11.5px
+    
+}
+
+.Logofiltres3
+{
+    position: relative;
+    left: 13px;
+    top: 12.5px
+    
+}
+
+.Logofiltres4
+{
+    position: relative;
+    left: 12px;
+    top: 8px
+    
+}
+
+
+.Textefiltres
+{
+    font-family: 'Raleway', 'Arial';
+    height: auto;
+    font-size: 1.05em;
+    font-weight: 600;
+
+}
+
+.blocfiltres
+{
+    border: 2px solid black;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    width: 900px;
+    gap:30px;
+
+}
+
+
+/* Info (en dessous filtres) */
+
+
+.blocinfo
+{
+    margin-left: 8px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+    gap:9px;
+    display:flex;
+    justify-content: left;
+    width: auto;
+    padding-top: 8px;
+}
 
 .Rondinfo
 {
-    width: 80px;
-    height: 80px;
-    border-radius: 80px;
+    width: 24px;
+    height:24px;
+    border-radius: 50px;
     border: 2px solid #F2F2F2;
     justify-content: center;
+    position: relative;
+    bottom: 2px
 }
 
 .logoinfo
@@ -145,6 +235,8 @@ justify-content: space-between;
     width: 20px;
     height: 20px;
     position: relative;
+    left: 11px;
+    top: 4px
     
 }
 
@@ -401,7 +493,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 .Cardactivités3
 {
 display: column;
-height: 194px;
+height: 190px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
 box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
@@ -430,7 +522,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     justify-content:space-between;
     border: 0px solid blue;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 58px;
 }
 
 
@@ -468,16 +560,31 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 .Texteactiv
 {
+    font-family: 'Raleway', 'Arial';
     border: 0px solid rgb(255, 0, 0);
-    padding-left: 9px;
+    padding-left: 18px;
     height: auto;
-    margin-top: 8px;
+    margin-top: 9px;
+    font-size: 1.02em;
+
+
 }
 
 
 
 
 /* Footer */
+
+footer 
+{
+    display: absolute;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    border: 0px solid rgb(31, 0, 167)
+
+
+}
 
 .Conteneurfooter
 {
@@ -486,9 +593,9 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     margin: auto;
     height: auto;
     width: auto;
-    border: 2px solid black;
     background-color:#F2F2F2;
-    padding: 50px;
+    padding-top: 45px;
+    padding-left: 45px;
 }
 
 .Blocsfooter
@@ -497,33 +604,32 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     justify-content:left;
     margin: left;
     height: auto;
-    gap: 225px;
-    margin-bottom: 20px;
+    gap: 215px;
     width: auto;    
-    border: 2px solid #1900ff;
+    border: 0px solid #1900ff;
 }
 
 
 .bloctextefooter
 {
     height: auto;
-    width: auto;
+    width: 235px;
     justify-content: column;
     flex-direction: column;
     margin-bottom: 30px;
-    gap:15px
-    border: 2px solid black
+    gap:15px;
+    border: 0px solid black
 
 }
 
 .textefooter
 {
     color: #000000; 
-    font-size: 1.0em;
+    font-size: 0.95em;
+    line-height: 170%;
     font-weight:300;
     text-align: left;
     text-decoration: none;
-    margin-bottom: 5px;
 
 }
 
