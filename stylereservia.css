@@ -138,17 +138,54 @@ justify-content: space-between;
 
 .blocrecherche
 {
-    border: 3px solid rgba(238, 234, 0, 0.315);
+    border: 0px solid rgb(255, 94, 0);
     margin-left: 8px;
     margin-bottom: 26px;
     margin-top: 20px;
     display:flex;
     justify-content: left;
     width: auto;
-    height: 48px;
+    height: 50px;
     gap:0px;
 
 }
+
+
+.Boutonlocalisation
+{
+    width: 50px;
+    height:50px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #f0f0f0;
+    position: relative;
+    right:0px;
+    bottom: 0px
+}
+
+
+.Logolocalisation
+{
+    position: relative;
+    left: 18.5px;
+    top: 14px
+}
+
+
+.Espacesaisie
+{
+    height:auto;
+    width: 200px;
+    font-family: 'Raleway', 'Arial';
+    font-size: 1.05em;
+    font-weight:500;
+    padding:15px;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+
+}
+
 
 .Boutonrechercher
 {
@@ -170,29 +207,9 @@ justify-content: space-between;
     color: white;    
     font-weight: 600;
     margin-top: 13px;
-    margin-left: 16px;
-    margin-right:19px
+    margin-left: 14px;
+    margin-right:17px
 
-}
-
-
-.Boutonlocalisation
-{
-    width: 51px;
-    height:51px;
-    border-radius: 15px 0px 0px 15px;
-    background-color: #f0f0f0;
-    position: relative;
-    right:0px;
-    bottom: 0px
-}
-
-
-.Logolocalisation
-{
-    position: relative;
-    left: 19px;
-    top: 14px
 }
 
 
@@ -274,8 +291,8 @@ justify-content: space-between;
 .Logofiltres2
 {
     position: relative;
-    left: 14.6px;
-    top: 11.5px
+    left: 14px;
+    top: 11.2px
     
 }
 
@@ -446,6 +463,26 @@ background-color: white;
     border-radius: 30px;
 }
 
+.Logotendance
+{
+    position: relative;
+    right: 2.5px;
+    top: 14px
+}
+
+.headerhébergement
+{   
+    border: 0px solid rgb(0, 240, 12);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 6px;
+
+}
+
+
 .headerpopulaire
 {   
     border: 0px solid rgb(0, 240, 12);
@@ -454,6 +491,7 @@ background-color: white;
     width: auto;
     height: auto;
     vertical-align: middle;
+    margin-bottom: 6px;
 
 }
 
