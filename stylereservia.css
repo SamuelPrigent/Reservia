@@ -136,48 +136,16 @@ justify-content: space-between;
 
 /* Filtres */
 
-.Rondfiltres
+.Boutonfiltres
 {
-    width: 45px;
-    height:45px;
-    border-radius: 100%;
-    border: 2px solid #DEEBFF;
-    background-color: #DEEBFF;
-    justify-content: center;
-    position: relative;
-    bottom: 2px
-}
-
-.Logofiltres1
-{
-    position: relative;
-    left: 12.5px;
-    top: 13.5px
-    
-}
-
-.Logofiltres2
-{
-    position: relative;
-    left: 15px;
-    top: 11.5px
-    
-}
-
-.Logofiltres3
-{
-    position: relative;
-    left: 13px;
-    top: 12.5px
-    
-}
-
-.Logofiltres4
-{
-    position: relative;
-    left: 12px;
-    top: 8px
-    
+    display: flex;
+    width: auto;
+    height:auto;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border: 2px solid #dbdbdb;
+    background-color: #ffffff;
 }
 
 
@@ -187,21 +155,85 @@ justify-content: space-between;
     height: auto;
     font-size: 1.05em;
     font-weight: 600;
+    margin-top: 10.5px;
+    margin-left: 10px;
+    margin-right:20px
+
+}
+
+
+.Textefiltres1
+{
+    font-family: 'Raleway', 'Arial';
+    height: auto;
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-top: 12.5px;
+    margin-left: 3px;
+    margin-right:25px
 
 }
 
 .blocfiltres
 {
-    border: 2px solid black;
+    border: 3px solid rgba(238, 234, 0, 0.315);
     margin-left: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
     display:flex;
-    justify-content: space-between;
-    width: 900px;
-    gap:30px;
+    justify-content: left;
+    width: auto;
+    height: 48px;
+    gap:0px;
 
 }
+
+
+.Rondfiltres
+{
+    width: 44px;
+    height:44px;
+    border-radius: 100%;
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    position: relative;
+    right:3px;
+    bottom: 2px
+}
+
+.Logofiltres1
+{
+    position: relative;
+    left: 11.5px;
+    top: 12.6px
+    
+}
+
+.Logofiltres2
+{
+    position: relative;
+    left: 14.6px;
+    top: 11.5px
+    
+}
+
+.Logofiltres3
+{
+    position: relative;
+    left: 12.5px;
+    top: 12.5px
+    
+}
+
+.Logofiltres4
+{
+    position: relative;
+    left: 11px;
+    top: 9px
+    
+}
+
+
 
 
 /* Info (en dessous filtres) */
