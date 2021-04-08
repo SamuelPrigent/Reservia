@@ -100,6 +100,7 @@ opacity: 0.96;
 display: flex;
 height: auto;
 justify-content: space-between;
+border: 0px solid blue;
 
 }
 
@@ -107,7 +108,9 @@ justify-content: space-between;
 .Bloclogo
 {
     gap: 0px;
-    margin-left: 15px;
+    position: relative;
+    top: 15px
+
 
 }
 
@@ -126,12 +129,47 @@ justify-content: space-between;
 .Texteheader
 {
     color: #0065FC; 
-    font-size: 1.3em;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight:600;
     text-align: center;
     text-decoration: none;
 
 }
+
+
+/* En tête de la page sous le logo */
+.Blocpremiertexte
+{
+    height: auto;
+    width: auto;
+    border: 0px solid black;
+    margin-bottom: 3px;
+    margin-top: 45px;
+}
+
+
+.premiertextetitre
+{
+    color: #000000; 
+    font-weight:700;
+    text-align: left;
+    font-size:1.3em;
+    font-family: 'Raleway', 'Arial';
+    margin-bottom: 10px;
+}
+
+
+.premiertexte 
+{
+    color: #000000; 
+    font-size: 0.93em;
+    font-family: 'Raleway', 'Arial';
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+
 
 
 /* Zone Recherche */
@@ -140,7 +178,7 @@ justify-content: space-between;
 {
     border: 0px solid rgb(255, 94, 0);
     margin-left: 8px;
-    margin-bottom: 26px;
+    margin-bottom: 28px;
     margin-top: 20px;
     display:flex;
     justify-content: left;
@@ -207,8 +245,8 @@ justify-content: space-between;
     color: white;    
     font-weight: 600;
     margin-top: 13px;
-    margin-left: 14px;
-    margin-right:17px
+    margin-left: 15px;
+    margin-right:18px
 
 }
 
