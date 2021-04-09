@@ -83,24 +83,15 @@ opacity: 0.96;
 }
 
 
-/* Bloc Texte nav petit*/
-.menunav
- {
-        display: column;
-        gap: 4px;
-        width: auto;
-        height: auto;
-        margin-right: 15px;
-    
- }
-
  /* Header = Logo + Menu nav*/
  .header
 {
 display: flex;
-height: auto;
+height: 70px;
+width: auto;
 justify-content: space-between;
-border: 0px solid blue;
+border: 0px solid rgb(255, 94, 0);
+margin-bottom: 25px;
 
 }
 
@@ -118,10 +109,31 @@ border: 0px solid blue;
 .menunav
 {
     display: flex;
-    gap: 13px;
-    height: 30px;
-    margin-top: 22px;
-    margin-right: 5px;
+    gap: 27px;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    border: 0px solid rgba(7, 88, 0, 0.644);
+
+}
+
+/* Bloc dans Nav */
+.Bloctexteheader
+{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 28px;
+    width: auto;
+    height: auto;
+    background-color: rgba(222, 184, 135, 0);
+
+}
+
+/* TEST */
+.Bloctexteheader:hover
+{
+    border-top: #0065FC solid 2px;
 
 }
 
@@ -129,12 +141,32 @@ border: 0px solid blue;
 .Texteheader
 {
     color: #0065FC; 
-    font-size: 1.2em;
+    font-size: 0.95em;
+    font-weight:500;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+.Texteheader:hover
+{
+    border-top: #0065FC solid 0px;
+
+}
+
+.Texteinscription
+{
+    color: #0065FC; 
+    font-size: 0.95em;
     font-weight:600;
     text-align: center;
     text-decoration: none;
+    margin-top: 0px;
 
 }
+
 
 
 /* En tête de la page sous le logo */
@@ -144,7 +176,7 @@ border: 0px solid blue;
     width: auto;
     border: 0px solid black;
     margin-bottom: 3px;
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 
