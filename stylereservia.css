@@ -310,9 +310,13 @@ margin-bottom: 25px;
     height: auto;
     font-size: 1.05em;
     font-weight: 600;
-    margin-top: 10.5px;
-    margin-left: 10px;
-    margin-right:20px
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+    margin-right:20px;
+    position: relative;
+    bottom:1px
+
 
 }
 
@@ -437,7 +441,9 @@ margin-bottom: 25px;
     margin: auto;
     height: auto;
     width: auto;
+    gap:35px;
     margin-bottom: 50px;
+    border: 0px solid black
 }
 
 /* Conteneur Hébergement */
@@ -449,7 +455,7 @@ margin-bottom: 25px;
     padding: 41px;
     height:545px;
     margin-bottom: 0px;
-    width: 800px;
+    width: auto;
     background-color:#f0f0f0;
     border-radius: 30px;
 }
@@ -463,7 +469,7 @@ margin-bottom: 25px;
     justify-content:space-between;
     margin: auto;
     height: auto;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 30px;
     border: 0px solid black
 }
@@ -508,7 +514,8 @@ padding-left: 13px;
 
 
 /* Note dans Texte */
-.Noteétoiles
+
+.bluestar
 {
 display: flex;
 justify-content: left;
@@ -519,10 +526,31 @@ margin-top: 5px;
 margin-bottom: 5px;
 border: 0px solid rgb(247, 0, 255);
 background-color: white;
+font-size: 0.72em; 
+color: rgb(7, 92, 250);
 
 }
 
+.greystar
+{
+display: flex;
+justify-content: left;
+width: auto;
+height: auto;
+text-align: left;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 0px solid rgb(247, 0, 255);
+background-color: white;
+font-size: 0.72em; 
+color: #d9d9d9;
 
+}
+
+.flex
+{
+    display: flex;
+}
 
 
 /* Populaire */
@@ -644,22 +672,23 @@ background-color: white
 /* Photo in blocspopulaire / corn le haut */
 .Blocs1activités img
 {
-    width: 301px;
     height: 395px;
-    border-radius: 16px 16px 0% 0%;
+    width: 301px;
+    border-radius: 16px 16px 0px 0px;
     background-color: white;
 
-
 }
+
 
 /* Photo in blocspopulaire */
 .Blocs2activités img
 {
+    border-radius: 16px 16px 0px 0px;
     width: 301px;
-    border-radius: 16px 16px 0% 0%;
     background-color: white
 
 }
+
 
 /* Les Card activités */
 .Cardactivités
@@ -671,6 +700,7 @@ border-radius: 16px 16px 16px 16px;
 box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 -webkit-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 -moz-box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
+flex:1;
 
 }
 
@@ -724,12 +754,11 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 .Conteneuractivitésglobal
 {
-    width: auto;
     height: auto;
+    width: auto;
     display: column;
     justify-content:space-between;
     border: 0px solid blue;
-    margin: auto;
     margin-bottom: 58px;
 }
 
@@ -740,9 +769,8 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     height: 445px;
     display: flex;
     justify-content:space-between;
-    flex-direction: flex;
-    margin: auto;
-    border: 0px tomato solid;
+    border: 0px solid blue;
+    gap: 41px;
 }
 
 .Blocs1activités
@@ -794,41 +822,38 @@ footer
 
 }
 
-.Conteneurfooter
+.conteneurfooter
 {
     display: flex;
     justify-content:space-between;
-    margin: auto;
     height: auto;
     width: auto;
     background-color:#F2F2F2;
-    padding-top: 45px;
-    padding-left: 45px;
+    padding: 45px;
+
 }
 
-.Blocsfooter
+
+
+.blocsfooter
 {
     display: flex;
-    justify-content:left;
-    margin: left;
-    height: auto;
-    gap: 215px;
-    width: auto;    
+    flex: 1;
     border: 0px solid #1900ff;
+    gap: 17px
 }
 
 
 .bloctextefooter
 {
     height: auto;
-    width: 235px;
+    flex:1;
+    min-width: 235px;
     justify-content: column;
-    flex-direction: column;
-    margin-bottom: 30px;
-    gap:15px;
-    border: 0px solid black
+    border: 0px solid black;
 
 }
+
 
 .textefooter
 {
