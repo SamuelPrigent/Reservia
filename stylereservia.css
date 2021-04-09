@@ -77,6 +77,13 @@ a:hover
     color: #0047b1; 
 }
 
+/* test */
+a:active
+{
+    color: #000000;
+}
+
+
 img:hover
 {
 opacity: 0.96;
@@ -130,12 +137,12 @@ margin-bottom: 25px;
 
 }
 
-/* TEST */
 .Bloctexteheader:hover
 {
     border-top: #0065FC solid 2px;
 
 }
+
 
 /* Texte dans Nav */
 .Texteheader
@@ -166,7 +173,6 @@ margin-bottom: 25px;
     margin-top: 0px;
 
 }
-
 
 
 /* En tête de la page sous le logo */
