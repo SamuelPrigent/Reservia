@@ -125,7 +125,26 @@ margin-bottom: 25px;
 }
 
 /* Bloc dans Nav */
-.Bloctexteheader
+nav
+{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 28px;
+    width: auto;
+    height: auto;
+    background-color: rgba(222, 184, 135, 0);
+    border: 0px solid green;
+
+}
+
+nav:hover
+{
+    border-top: #0065FC solid 2px;
+}
+
+
+.bloctexteheader
 {
     text-align: center;
     padding-left: 10px;
@@ -137,7 +156,8 @@ margin-bottom: 25px;
 
 }
 
-.Bloctexteheader:hover
+
+.bloctexteheader:hover
 {
     border-top: #0065FC solid 2px;
 
@@ -145,7 +165,7 @@ margin-bottom: 25px;
 
 
 /* Texte dans Nav */
-.Texteheader
+.texteheader
 {
     color: #0065FC; 
     font-size: 0.95em;
@@ -157,13 +177,13 @@ margin-bottom: 25px;
 
 }
 
-.Texteheader:hover
+.texteheader:hover
 {
     border-top: #0065FC solid 0px;
 
 }
 
-.Texteinscription
+.texteinscription
 {
     color: #0065FC; 
     font-size: 0.95em;
@@ -227,7 +247,7 @@ margin-bottom: 25px;
 }
 
 
-.Boutonlocalisation
+.boutonlocalisation
 {
     width: 50px;
     height:50px;
@@ -239,7 +259,7 @@ margin-bottom: 25px;
 }
 
 
-.Logolocalisation
+.logolocalisation
 {
     position: relative;
     left: 18.5px;
@@ -247,7 +267,7 @@ margin-bottom: 25px;
 }
 
 
-.Espacesaisie
+.espacesaisie
 {
     height:auto;
     width: 200px;
@@ -263,7 +283,7 @@ margin-bottom: 25px;
 }
 
 
-.Boutonrechercher
+.boutonrechercher
 {
     width: auto;
     height:50px;
@@ -275,7 +295,7 @@ margin-bottom: 25px;
 }
 
 
-.Texterecherche
+.texterecherche
 {
     font-family: 'Raleway', 'Arial';
     height: auto;
@@ -291,7 +311,7 @@ margin-bottom: 25px;
 
 /* Filtres */
 
-.Boutonfiltres
+.boutonfiltres
 {
     display: flex;
     width: auto;
@@ -304,7 +324,7 @@ margin-bottom: 25px;
 }
 
 
-.Textefiltres
+.textefiltres
 {
     font-family: 'Raleway', 'Arial';
     height: auto;
@@ -321,7 +341,7 @@ margin-bottom: 25px;
 }
 
 
-.Textefiltres1
+.textefiltres1
 {
     font-family: 'Raleway', 'Arial';
     height: auto;
@@ -348,7 +368,7 @@ margin-bottom: 25px;
 }
 
 
-.Rondfiltres
+.rondfiltres
 {
     width: 44px;
     height:44px;
@@ -360,7 +380,7 @@ margin-bottom: 25px;
     bottom: 2px
 }
 
-.Logofiltres1
+.logofiltres1
 {
     position: relative;
     left: 11.5px;
@@ -368,7 +388,7 @@ margin-bottom: 25px;
     
 }
 
-.Logofiltres2
+.logofiltres2
 {
     position: relative;
     left: 14px;
@@ -376,7 +396,7 @@ margin-bottom: 25px;
     
 }
 
-.Logofiltres3
+.logofiltres3
 {
     position: relative;
     left: 12.5px;
@@ -384,7 +404,7 @@ margin-bottom: 25px;
     
 }
 
-.Logofiltres4
+.logofiltres4
 {
     position: relative;
     left: 11px;
@@ -448,7 +468,7 @@ margin-bottom: 25px;
 
 /* Conteneur Hébergement */
 
-.conteneurhebergement
+.conteneurheberge
 {
     display: column;
     justify-content:space-between;
@@ -463,7 +483,7 @@ margin-bottom: 25px;
 
 /* Bloc Hébergement */
 
-.Blocshebergement
+.blocsheberge
 {
     display: flex;
     justify-content:space-between;
@@ -475,7 +495,7 @@ margin-bottom: 25px;
 }
 
 /* Card hébergement */
-.Cardhébergement
+.cardheberge
 {
 display: column;
 width: auto;
@@ -489,7 +509,7 @@ box-shadow: 0 0 6px 3px #b1b1b14b;
 
 
 /* Photo in hebergement */
-.Blocshebergement img
+.blocsheberge img
 {
 width: 235px;
 height: 113px;
@@ -500,7 +520,7 @@ background-color: white
 
 
 /* Texte dans Card */
-.Textehébergement
+.texteheberge
 {
 display: column;
 width: auto;
@@ -555,7 +575,7 @@ color: #d9d9d9;
 
 /* Populaire */
 
-.Conteneurpopulaire
+.conteneurpopulaire
 {
     width: 335px;
     height:545px;
@@ -567,14 +587,14 @@ color: #d9d9d9;
     border-radius: 30px;
 }
 
-.Logotendance
+.logotendance
 {
     position: relative;
     right: 2.5px;
     top: 14px
 }
 
-.headerhébergement
+.headerheberge
 {   
     border: 0px solid rgb(0, 240, 12);
     display: flex;
@@ -599,7 +619,7 @@ color: #d9d9d9;
 
 }
 
-.Blocspopulaire
+.blocspopulaire
 {
     display: flex;
     justify-content:space-between;
@@ -612,7 +632,7 @@ color: #d9d9d9;
 }
 
 /* Card populaires = Photo + Texte + Notes (étoiles) */
-.Cardpopulaires
+.cardpopulaire
 {
 display: flex;
 width: auto;
@@ -627,7 +647,7 @@ box-shadow: 0 0 6px 3px #b1b1b14b;
 
 
 /* Photo in blocspopulaire */
-.Blocspopulaire img
+.blocspopulaire img
 {
 width: 126px;
 height: 132px;
@@ -638,7 +658,7 @@ background-color: white
 
 
 /* Texte in Card populaire  */
-.Textepopulaires
+.textepopulaire
 {
 display: flex;
 flex-direction: column;
@@ -655,7 +675,7 @@ background-color: white
 
 
 /* Texte in Card populaire  */
-.Textetoppopulaires
+.textetoppopulaire
 {
 display: column;
 width: auto;
@@ -670,7 +690,7 @@ background-color: white
 /* Activité à Marseilles */
 
 /* Photo in blocspopulaire / corn le haut */
-.Blocs1activités img
+.blocs1activ img
 {
     height: 395px;
     width: 301px;
@@ -681,7 +701,7 @@ background-color: white
 
 
 /* Photo in blocspopulaire */
-.Blocs2activités img
+.blocs2activ img
 {
     border-radius: 16px 16px 0px 0px;
     width: 301px;
@@ -691,7 +711,7 @@ background-color: white
 
 
 /* Les Card activités */
-.Cardactivités
+.cardactiv
 {
 display: column;
 height: auto;
@@ -704,7 +724,7 @@ flex:1;
 
 }
 
-.Cardactivités1
+.cardactiv1
 {
 display: column;
 height: 227px;
@@ -716,7 +736,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 }
 
-.Cardactivités2
+.cardactiv2
 {
 display: column;
 height: 171px;
@@ -728,7 +748,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 }
 
-.Cardactivités3
+.cardactiv3
 {
 display: column;
 height: 190px;
@@ -740,7 +760,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 }
 
-.Cardactivités4
+.cardactiv4
 {
 display: column;
 height: 202px;
@@ -752,7 +772,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 }
 
-.Conteneuractivitésglobal
+.conteneuractivglobal
 {
     height: auto;
     width: auto;
@@ -763,7 +783,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 }
 
 
-.Conteneuractivitésblocs
+.conteneuractivblocs
 {
     width: auto;
     height: 445px;
@@ -773,7 +793,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     gap: 41px;
 }
 
-.Blocs1activités
+.blocs1activ
 {
     display: flex;
     height: auto;
@@ -782,7 +802,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 }
 
 
-.Blocs2activités
+.blocs2activ
 {
     display: flex;
     justify-content:space-between;
@@ -794,7 +814,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 
 
 
-.Texteactiv
+.texteactiv
 {
     font-family: 'Raleway', 'Arial';
     border: 0px solid rgb(255, 0, 0);
@@ -834,13 +854,21 @@ footer
 }
 
 
+.conteneurfooter2
+{
+    width: 1340px;
+    margin: auto;
+    border: 0px solid #1900ff;
+
+}
 
 .blocsfooter
 {
     display: flex;
     flex: 1;
     border: 0px solid #1900ff;
-    gap: 17px
+    gap: 17px;
+
 }
 
 
