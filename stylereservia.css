@@ -1,10 +1,209 @@
 /* Mon fichier CSS */
 
-/* Responsive Options (a faire plus tard) */
+
+/* Mobile */
 @media screen and (max-width: 880px)
-{}
+{
+
+
+/* Conteneur de tous les blocs */
+.conteneur
+{
+    margin-top: 0px;
+    margin-block-end:0px;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(255, 102, 0)
+}
+
+/* Bouton
+    pas besoins si gap
+    margin-left: 5px;
+    margin-right: 19px;
+    
+     besoins si gap marche pas pendant column ?
+    margin-top: 13px;
+    margin-bottom: 13px;
+*/
+
+
+    .boutonfiltres
+    {
+        display: flex;
+        width: auto;
+        height: 44px;
+        border-radius: 25px;
+        border: 2px solid #dbdbdb;
+        background-color: #ffffff;
+    
+    }
+    
+    
+    /* Blocs filtres
+        margin-left: 8px;
+        margin-bottom: 26px;
+        margin-top: 26px;
+        height: 48px;
+    */
+    
+    .blocfiltres
+    {
+        border: 2px solid rgb(44, 0, 238);
+        display:grid;
+        justify-content: left;
+        width: auto;
+        height: auto;
+        gap:15px;
+    
+    }
+    
+    .blocboutonfiltres
+    {
+        border: 2px solid rgb(160, 0, 192);
+        display:flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        gap:25px;
+    
+    }    
+
+
+
+/* display desktop */
+.boutonrechercher
+{
+    width: auto;
+    height:50px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    position: relative;
+    right:0px;
+    bottom: 0px;
+    display: none;
+}
+
+/* display mobile */
+.boutonrechercher2
+{
+    width: auto;
+    height:50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #0065FC;
+    bottom: 0px;
+
+    position: relative;
+    right: 13px;
+
+
+}
+
+
+
+
+
+
+}
+
+/* Fin Version Mobile */
+
+
+
+
+
+
+
+
+/* Desktop */
 @media screen and (min-width: 881px)
-{}
+{
+
+
+/* Conteneur de tous les blocs */
+.conteneur
+{
+    margin-top: 0px;
+    margin-block-end:0px;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ff0000
+}
+
+    .boutonfiltres
+    {
+        display: flex;
+        width: auto;
+        height: 44px;
+        border-radius: 25px;
+        border: 2px solid #dbdbdb;
+        background-color: #ffffff;
+    
+    }
+    
+    .blocfiltres
+    {
+        border: 2px solid rgb(0, 111, 238);
+        display:flex;
+        justify-content: left;
+        width: auto;
+        height: auto;
+        gap:15px;
+    
+    }
+    
+    .blocboutonfiltres
+    {
+        border: 2px solid rgb(6, 192, 0);
+        display:flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        gap:25px;
+    
+    }    
+
+
+
+/* display desktop */
+.boutonrechercher
+{
+    width: auto;
+    height:50px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    position: relative;
+    right:0px;
+    bottom: 0px;
+}
+
+/* display mobile */
+.boutonrechercher2
+{
+    width: auto;
+    height:50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #0065FC;
+    bottom: 0px;
+
+    position: relative;
+    right: 13px;
+    display: none;
+
+
+}
+
+
+
+}
+/* Fin Dekstop  */
+
+
+
+
 
 
 body
@@ -263,7 +462,9 @@ nav:hover
 {
     position: relative;
     left: 18.5px;
-    top: 14px
+    top: 14px;
+    font-size: 1.15em;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -283,16 +484,14 @@ nav:hover
 }
 
 
-.boutonrechercher
+.logoloupe
 {
-    width: auto;
-    height:50px;
-    border-radius: 0px 15px 15px 0px;
-    background-color: #0065FC;
     position: relative;
-    right:0px;
-    bottom: 0px
+    left: 2px;
+    top: 0.99px
+    
 }
+
 
 
 .texterecherche
@@ -306,21 +505,6 @@ nav:hover
     margin-left: 15px;
     margin-right:18px
 
-}
-
-
-/* Filtres */
-
-.boutonfiltres
-{
-    display: flex;
-    width: auto;
-    height:auto;
-    border-radius: 25px;
-    margin-left: 5px;
-    margin-right: 19px;
-    border: 2px solid #dbdbdb;
-    background-color: #ffffff;
 }
 
 
@@ -353,20 +537,18 @@ nav:hover
 
 }
 
-.blocfiltres
+
+.boutonfiltres:hover
 {
-    border: 0px solid rgba(238, 234, 0, 0.315);
-    margin-left: 8px;
-    margin-bottom: 26px;
-    margin-top: 26px;
-    display:flex;
-    justify-content: left;
+    display: flex;
     width: auto;
-    height: 48px;
-    gap:0px;
+    height: 44px;
+    border-radius: 25px;
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    color: #0065FC;
 
 }
-
 
 .rondfiltres
 {
@@ -384,7 +566,9 @@ nav:hover
 {
     position: relative;
     left: 11.5px;
-    top: 12.6px
+    top: 12.6px;
+    color: #0065FC;
+    font-size: 1em;
     
 }
 
@@ -392,7 +576,9 @@ nav:hover
 {
     position: relative;
     left: 14px;
-    top: 11.2px
+    top: 11.2px;
+    color: #0065FC;
+    font-size: 1.25em;
     
 }
 
@@ -400,7 +586,9 @@ nav:hover
 {
     position: relative;
     left: 12.5px;
-    top: 12.5px
+    top: 12.5px;
+    color: #0065FC;
+    font-size: 1.15em;
     
 }
 
@@ -408,7 +596,9 @@ nav:hover
 {
     position: relative;
     left: 11px;
-    top: 9px
+    top: 9px;
+    color: #0065FC;
+    font-size: 1.2em;
     
 }
 
@@ -430,7 +620,7 @@ nav:hover
     padding-top: 8px;
 }
 
-.Rondinfo
+.rondinfo
 {
     width: 24px;
     height:24px;
@@ -447,7 +637,9 @@ nav:hover
     height: 20px;
     position: relative;
     left: 10.2px;
-    top: 4.4px
+    top: 4.4px;
+    font-size: 0.7em;
+    color: #0065FC;
     
 }
 
@@ -463,7 +655,7 @@ nav:hover
     width: auto;
     gap:35px;
     margin-bottom: 50px;
-    border: 0px solid black
+    border: 2px solid rgb(196, 0, 0)
 }
 
 /* Conteneur Hébergement */
@@ -473,7 +665,7 @@ nav:hover
     display: column;
     justify-content:space-between;
     padding: 41px;
-    height:545px;
+    height: auto;
     margin-bottom: 0px;
     width: auto;
     background-color:#f0f0f0;
@@ -486,12 +678,14 @@ nav:hover
 .blocsheberge
 {
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
     margin: auto;
     height: auto;
     gap: 30px;
     margin-bottom: 30px;
-    border: 0px solid black
+    border: 2px solid rgb(15, 0, 155)
 }
 
 /* Card hébergement */
@@ -591,7 +785,9 @@ color: #d9d9d9;
 {
     position: relative;
     right: 2.5px;
-    top: 14px
+    top: 14px;
+    font-size: 1.35em;
+    color: rgb(0, 0, 0);
 }
 
 .headerheberge
@@ -786,11 +982,13 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
 .conteneuractivblocs
 {
     width: auto;
-    height: 445px;
+    height: auto;
     display: flex;
-    justify-content:space-between;
-    border: 0px solid blue;
-    gap: 41px;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid rgb(255, 153, 0);
+    gap: 30px;
 }
 
 .blocs1activ
@@ -798,7 +996,7 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     display: flex;
     height: auto;
     width: auto;
-    border: 0px solid rgb(0, 22, 221);
+    border: 2px solid rgb(0, 22, 221);
 }
 
 
@@ -809,18 +1007,22 @@ box-shadow: 3px 3px 18px -6px rgba(0,0,0,0.4);
     flex-direction: column;
     height: auto;
     width: auto;
-    border: 0px solid rgb(0, 89, 255);
+    border: 2px solid rgb(50, 214, 0);
+    gap: 50px
 }
 
 
+/*     
+margin-top: 9px;    
+ */
 
 .texteactiv
 {
     font-family: 'Raleway', 'Arial';
     border: 0px solid rgb(255, 0, 0);
     padding-left: 18px;
-    height: auto;
     margin-top: 9px;
+    height: 30px;
     font-size: 1.02em;
 
 
@@ -865,6 +1067,7 @@ footer
 .blocsfooter
 {
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     border: 0px solid #1900ff;
     gap: 17px;
@@ -878,6 +1081,7 @@ footer
     flex:1;
     min-width: 235px;
     justify-content: column;
+    margin-bottom: 10px;
     border: 0px solid black;
 
 }
@@ -886,8 +1090,8 @@ footer
 .textefooter
 {
     color: #000000; 
-    font-size: 0.95em;
-    line-height: 170%;
+    font-size: 1em;
+    line-height: 190%;
     font-weight:300;
     text-align: left;
     text-decoration: none;
@@ -904,6 +1108,4 @@ footer
     margin-bottom: 10px;
 
 }
-
-
 
