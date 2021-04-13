@@ -200,7 +200,7 @@ text-align: left;
 border: 5px #ffffff solid;
 background-color: white;
 border-radius: 20px;
-box-shadow: 0 0 6px 3px #b1b1b14b;
+box-shadow: 0 0 6px 3px #b1b1b12c;
 
 }
 
@@ -348,6 +348,7 @@ box-shadow: 0 0 6px 3px #b1b1b14b;
     display: column;
     justify-content:space-between;
     padding: 41px;
+    padding-top: 25px;
     height: auto;
     margin-bottom: 0px;
     width: auto;
@@ -364,6 +365,7 @@ box-shadow: 0 0 6px 3px #b1b1b14b;
     margin: auto;
     background-color:#f5f5f5;
     padding: 41px;
+    padding-top: 25px;
     border-radius: 30px;
     }
 
