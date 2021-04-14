@@ -179,12 +179,17 @@ padding-top: 25px;
 border-radius: 00px;
 }
 
+/*  
+avant
+width: 360px;
+*/
+
 /* Mobile */
 .cardpopulaire
 {
 display: flex;
 justify-content: left;
-max-width: 360px;
+width: 360px;
 height: auto;
 text-align: left;
 border: 5px #ffffff solid;
@@ -230,7 +235,9 @@ box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
 {
 border-radius: 16px 16px 0% 0%;
 background-color: white;
-
+object-fit: cover;
+width: 235px;
+height: 113px;
 
 }
 
@@ -468,10 +475,12 @@ height: 113px;
         /* Desktop */
     .blocsheberge img
     {
+    border-radius: 16px 16px 0% 0%;
+    background-color: white;
+    object-fit: cover;
     width: 235px;
     height: 113px;
-    border-radius: 16px 16px 0% 0%;
-    background-color: white
+
     }
 
 
@@ -1004,16 +1013,22 @@ color: #d9d9d9;
 }
 
 
-
-/* Photo in blocspopulaire */
-.blocspopulaire img
-{
+/*     
 width: 126px;
 height: 132px;
-border-radius: 12% 0% 0% 12%;
-background-color: white
+*/
 
+.blocspopulaire img
+{
+border-radius: 12% 0% 0% 12%;
+background-color: white;
+height: 132px;
+min-width: 126px;
+max-width: 126px;
+object-fit: cover;
 }
+
+
 
 
 /* Texte in Card populaire  */
@@ -1047,7 +1062,6 @@ background-color: white
 
 /* Activité à Marseilles */
 
-/* Photo in blocspopulaire / corn le haut */
 .blocs1activ img
 {
     height: 395px;
@@ -1057,8 +1071,6 @@ background-color: white
 
 }
 
-
-/* Photo in blocspopulaire */
 .blocs2activ img
 {
     border-radius: 16px 16px 0px 0px;
