@@ -565,7 +565,7 @@ a:hover
 
 img:hover
 {
-opacity: 0.96;
+opacity: 1;
 }
 
 
@@ -585,6 +585,45 @@ opacity: 0.96;
     transition: 0.2s;
 }
 
+.cardactiv:hover
+{
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    transition: 0.2s;
+}
+
+.cardactiv1:hover
+{
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    transition: 0.2s;
+}
+
+.cardactiv2:hover
+{
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    transition: 0.2s;
+}
+
+.cardactiv3:hover
+{
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    transition: 0.2s;
+}
+
+.cardactiv4:hover
+{
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    transition: 0.2s;
+}
 
 
 .bloclogo
@@ -1064,6 +1103,7 @@ background-color: white
 
 .blocs1activ img
 {
+    object-fit: cover;
     height: 395px;
     width: 301px;
     border-radius: 16px 16px 0px 0px;
@@ -1088,9 +1128,9 @@ height: auto;
 text-align: left;
 flex:1;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
+box-shadow: 2px 5px 10px 0px #00000025;
+-webkit-box-shadow: 2px 5px 10px 0px #00000025;
+-moz-box-shadow: 2px 5px 10px 0px #00000025;
 
 }
 
@@ -1100,9 +1140,9 @@ display: column;
 height: 227px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
+box-shadow: 2px 5px 10px 0px #00000025;
+-webkit-box-shadow: 2px 5px 10px 0px #00000025;
+-moz-box-shadow: 2px 5px 10px 0px #00000025;
 }
 
 .cardactiv2
@@ -1111,9 +1151,9 @@ display: column;
 height: 171px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
+box-shadow: 2px 5px 10px 0px #00000025;
+-webkit-box-shadow: 2px 5px 10px 0px #00000025;
+-moz-box-shadow: 2px 5px 10px 0px #00000025;
 }
 
 .cardactiv3
@@ -1122,9 +1162,9 @@ display: column;
 height: 190px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
+box-shadow: 2px 5px 10px 0px #00000025;
+-webkit-box-shadow: 2px 5px 10px 0px #00000025;
+-moz-box-shadow: 2px 5px 10px 0px #00000025;
 }
 
 .cardactiv4
@@ -1133,9 +1173,9 @@ display: column;
 height: 202px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
+box-shadow: 2px 5px 10px 0px #00000025;
+-webkit-box-shadow: 2px 5px 10px 0px #00000025;
+-moz-box-shadow: 2px 5px 10px 0px #00000025;
 }
 
 .conteneuractivglobal
@@ -1157,7 +1197,7 @@ box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
     grid-template-columns: auto;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid rgb(255, 153, 0);
+    border: 0px solid rgb(255, 153, 0);
     gap: 30px;
 }
 
@@ -1166,7 +1206,7 @@ box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
     display: flex;
     height: auto;
     width: auto;
-    border: 2px solid rgb(0, 22, 221);
+    border: 0px solid rgb(0, 22, 221);
 }
 
 
@@ -1177,7 +1217,7 @@ box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.19);
     flex-direction: column;
     height: auto;
     width: auto;
-    border: 2px solid rgb(50, 214, 0);
+    border: 0px solid rgb(50, 214, 0);
     gap: 50px
 }
 
