@@ -5,8 +5,8 @@
 @media screen and (max-width: 768px)
 {
 
-    /* pour header : max-width: 1340px; */
 
+    /* Mobile */
     .header
     {
     margin-bottom: 5px;
@@ -15,6 +15,7 @@
     border: 0px solid blue;
     }
 
+        /* Mobile */
     .menumobile
     {
     display: flex;
@@ -26,6 +27,7 @@
 
     }
 
+        /* Mobile */
     .bloctexteheader1
     {
         display: none;
@@ -37,6 +39,7 @@
     
     }
     
+        /* Mobile */
     .bloctexteheader2
     {
         display: none;
@@ -48,7 +51,7 @@
     }
 
 
-
+    /* Mobile */
 /* Conteneur de tous les blocs */
 .conteneur
 {
@@ -60,6 +63,7 @@
     border: 2px solid rgb(0, 255, 42);
 }
 
+    /* Mobile */
 .conteneur1
 {
 padding: 21px;
@@ -67,7 +71,7 @@ border: 2px solid blue;
 
 }
 
-
+    /* Mobile */
 /* Zone Recherche */
 .blocrecherche
 {
@@ -81,16 +85,8 @@ border: 2px solid blue;
     gap:0px;
 }
 
-/* Bouton
-    pas besoins si gap
-    margin-left: 5px;
-    margin-right: 19px;
-     besoins si gap marche pas pendant column ?
-    margin-top: 13px;
-    margin-bottom: 13px;
-*/
-
-    .boutonfiltres
+    /* Mobile */
+.boutonfiltres
     {
         display: flex;
         width: auto;
@@ -101,13 +97,7 @@ border: 2px solid blue;
     
     }
     
-    /* Blocs filtres
-        margin-left: 8px;
-        margin-bottom: 26px;
-        margin-top: 26px;
-        height: 48px;
-    */
-    
+        /* Mobile */
     .blocfiltres
     {
         border: 0px solid rgb(44, 0, 238);
@@ -119,18 +109,20 @@ border: 2px solid blue;
     
     }
     
+        /* Mobile */
     .blocboutonfiltres
     {
-        border: 0px solid rgb(160, 0, 192);
-        display:flex;
-        justify-content: left;
-        flex-wrap: wrap;
-        width: auto;
-        height: auto;
-        gap:25px;
-    
-        }    
+    border: 0px solid rgb(160, 0, 192);
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    gap:25px;
+    }    
 
+
+/* Mobile */
 .boutonrechercher
 {
     display: none;
@@ -138,57 +130,61 @@ border: 2px solid blue;
 
 .boutonrechercher2
 {
-    width: auto;
-    height:50px;
-    border-radius: 15px 15px 15px 15px;
-    background-color: #0065FC;
-    bottom: 0px;
-    position: relative;
-    right: 13px;
+width: auto;
+height:50px;
+border-radius: 15px 15px 15px 15px;
+background-color: #0065FC;
+bottom: 0px;
+position: relative;
+right: 13px;
 
 }
 
-/* Double Conteneur Hébergement + Populaire */
+/* Mobile */
 .conteneurhebergepopu
 {
-    display: column;
-    justify-content:space-between;
-    margin: auto;
-    height: auto;
-    width: auto;
-    gap:35px;
-    margin-bottom: 50px;
-    border: 2px solid rgb(196, 0, 0)
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+margin: auto;
+height: auto;
+width: auto;
+margin-bottom: 50px;
+border: 0px solid rgb(0, 13, 196)
 }
 
 
-/* Conteneur Hébergement */
+/* Mobile */
 .conteneurheberge
 {
-    display: column;
-    justify-content:space-between;
-    padding: 41px;
-    height: auto;
-    margin-bottom: 0px;
-    width: auto;
-    background-color:#ffffff;
-    border-radius: 30px;
+order: 2;
+border: 0px solid green;
+display: column;
+justify-content:space-between;
+padding: 41px;
+height: auto;
+margin-bottom: 0px;
+width: auto;
+background-color:#ffffff;
+border-radius: 0px;
 }
 
-/* Populaire */
+
+/* Mobile */
 .conteneurpopulaire
 {
-    width: auto;
-    height:545px;
-    display: column;
-    justify-content:space-between;
-    margin: auto;
-    background-color:#f5f5f5;
-    padding: 41px;
-    border-radius: 00px;
+width: auto;
+border: 0px solid blue;
+height:545px;
+display: column;
+justify-content:space-between;
+margin: auto;
+background-color:#f0f0f0;
+padding: 41px;
+border-radius: 00px;
 }
 
-
+    /* Mobile */
 .cardpopulaire
 {
 display: flex;
@@ -201,8 +197,8 @@ border: 5px #ffffff solid;
 background-color: white;
 border-radius: 20px;
 box-shadow: 0 0 6px 3px #b1b1b12c;
-
 }
+
 
 
 }
@@ -352,7 +348,7 @@ box-shadow: 0 0 6px 3px #b1b1b12c;
     height: auto;
     margin-bottom: 0px;
     width: auto;
-    background-color:#f5f5f5;
+    background-color:#f0f0f0;
     border-radius: 30px;
     }   
 
@@ -363,7 +359,7 @@ box-shadow: 0 0 6px 3px #b1b1b12c;
     display: column;
     justify-content:space-between;
     margin: auto;
-    background-color:#f5f5f5;
+    background-color:#f0f0f0;
     padding: 41px;
     padding-top: 25px;
     border-radius: 30px;
