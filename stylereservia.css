@@ -5,7 +5,6 @@
 @media screen and (max-width: 768px)
 {
 
-
 /* Mobile */
 .header
 {
@@ -100,11 +99,12 @@ background-color: #ffffff;
 .blocfiltres
 {
 border: 0px solid rgb(44, 0, 238);
-display:grid;
+display:flex;
+flex-wrap: wrap;
 justify-content: left;
 width: auto;
 height: auto;
-gap:15px;
+gap:16px;
 }
     
 /* Mobile */
@@ -116,7 +116,7 @@ justify-content: left;
 flex-wrap: wrap;
 width: auto;
  height: auto;
-gap:25px;
+gap:15px;
  }    
 
 
@@ -147,7 +147,7 @@ justify-content:space-between;
 margin: auto;
 height: auto;
 width: auto;
-margin-bottom: 0px;
+margin-bottom: 10px;
 border: 0px solid rgb(0, 13, 196)
 }
 
@@ -232,9 +232,9 @@ text-align: left;
 background-color: white;
 border-radius: 20px;
 border: 5px #ffffff solid;
-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
--webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
--moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 }
   
 /* Mobile */
@@ -767,57 +767,57 @@ opacity: 1;
 
 .cardheberge:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardpopulaire:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardactiv:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardactiv1:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardactiv2:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardactiv3:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
 .cardactiv4:hover
 {
-    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.37);    
+    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
     transition: 0.2s;
 }
 
@@ -1302,9 +1302,9 @@ height: auto;
 text-align: left;
 flex:1;
 border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 }
 
 
