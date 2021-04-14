@@ -9,9 +9,14 @@
 /* Mobile */
 .header
 {
-margin-bottom: 5px;
-margin-top: 5px;
+margin-bottom: 0px;
+margin-top: 0px;
 width: auto;
+height: auto;
+padding-left: 18px;
+padding-right: 18px;
+padding-bottom: 10px;
+padding-top: 10px;
 border: 0px solid blue;
 }
 
@@ -22,8 +27,8 @@ display: flex;
 border: 0px solid blue;
 width:100%;
 height:40px;
-margin-bottom: 30px;
-margin-top: 12px;
+margin-bottom: 17px;
+margin-top: 0px;
 }
 
 /* Mobile */
@@ -63,7 +68,7 @@ border: 0px solid rgb(0, 255, 42);
 /* Mobile */
 .conteneur1
 {
-padding: 21px;
+padding: 20px;
 border: 0px solid blue;
 }
 
@@ -142,7 +147,7 @@ justify-content:space-between;
 margin: auto;
 height: auto;
 width: auto;
-margin-bottom: 50px;
+margin-bottom: 0px;
 border: 0px solid rgb(0, 13, 196)
 }
 
@@ -154,8 +159,9 @@ order: 2;
 border: 0px solid green;
 display: column;
 justify-content:space-between;
-padding: 41px;
+padding: 20px;
 padding-top: 25px;
+padding-bottom: 14px;
 height: auto;
 margin-bottom: 0px;
 width: auto;
@@ -174,13 +180,14 @@ display: column;
 justify-content:space-between;
 margin: auto;
 background-color:#f0f0f0;
-padding: 41px;
+padding: 20px;
 padding-top: 25px;
-border-radius: 00px;
+padding-bottom: 35px;
+border-radius: 0px;
 }
 
 /*  
-avant
+de base
 width: 360px;
 */
 
@@ -189,7 +196,7 @@ width: 360px;
 {
 display: flex;
 justify-content: left;
-width: 360px;
+width: auto;
 height: auto;
 text-align: left;
 border: 5px #ffffff solid;
@@ -236,8 +243,9 @@ box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
 border-radius: 16px 16px 0% 0%;
 background-color: white;
 object-fit: cover;
-width: 235px;
-height: 113px;
+width: 335px;
+height: 112px;
+object-fit: cover;
 
 }
 
@@ -246,6 +254,101 @@ Dimenssions originale
 width: 235px;
 height: 113px;
 */
+
+/* Mobile */
+.conteneuractivglobal
+    {
+        padding: 19px;
+        padding-top: 9px;
+        height: auto;
+        width: auto;
+        display: column;
+        justify-content:space-between;
+        border: 0px solid blue;
+        margin-bottom: 33px;
+    }
+
+/* Mobile */
+.conteneuractivblocs
+{
+    padding-top: 15px;
+    width: auto;
+    height: auto;
+    display: flex;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 0px solid rgb(255, 153, 0);
+    gap: 30px;
+}
+
+
+
+/* Mobile */
+.conteneurfooter
+{
+display: flex;
+justify-content:space-between;
+height: auto;
+width: auto;
+background-color:#f5f5f5;
+padding: 25px;
+padding-top: 40px;
+border: 0px solid blue;
+}
+
+
+/* Mobile */
+.cardactiv img
+{
+    object-fit: cover;
+    width: 335px;
+    height: 145px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: white;
+
+}
+
+/* Mobile */
+.cardactiv1 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 335px;
+    height: 145px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Mobile */
+.cardactiv2 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 335px;
+    height: 145px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Mobile */
+.cardactiv3 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 335px;
+    height: 145px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Mobile */
+.cardactiv4 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 335px;
+    height: 145px;
+    object-fit: cover;
+    background-color: white;
+}
+
 
 
 
@@ -483,6 +586,97 @@ height: 113px;
 
     }
 
+    /* Desktop */
+    .conteneuractivglobal
+    {
+        height: auto;
+        width: auto;
+        display: column;
+        justify-content:space-between;
+        border: 0px solid blue;
+        margin-bottom: 58px;
+    }
+
+/* Desktop */
+.conteneuractivblocs
+{
+width: auto;
+height: auto;
+display: flex;
+grid-template-columns: auto;
+flex-wrap: wrap;
+justify-content: space-around;
+border: 0px solid rgb(255, 153, 0);
+gap: 30px;
+}
+
+
+/* Desktop */
+.conteneurfooter
+{
+    display: flex;
+    justify-content:space-between;
+    height: auto;
+    width: auto;
+    background-color:#f5f5f5;
+    padding: 45px;
+    border: 0px solid blue;
+}
+    
+
+
+/* Desktop */
+.cardactiv img
+{
+    object-fit: cover;
+    height: 395px;
+    width: 301px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: white;
+
+}
+
+/* Desktop */
+.cardactiv1 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 301px;
+    height: 179px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Desktop */
+.cardactiv2 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 301px;
+    height: 120px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Desktop */
+.cardactiv3 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 301px;
+    height: 138px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Desktop */
+.cardactiv4 img
+{
+    border-radius: 16px 16px 0px 0px;
+    width: 301px;
+    height: 152px;
+    object-fit: cover;
+    background-color: white;
+}
+
+
 
 }
 
@@ -523,12 +717,14 @@ h1
 }
 
 
-h2
+.afficherplus
 {
     color: #000000; 
     text-align: left;
-    font-size:1.1em;
+    font-weight: 600;
+    font-size:1.07em;
     font-family: 'Raleway', 'Arial';
+    text-decoration: none;
 
 }
 
@@ -642,7 +838,7 @@ opacity: 1;
     gap: 0px;
     border: 0px solid rgb(142, 35, 35);
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 
@@ -1060,7 +1256,6 @@ height: 132px;
 .blocspopulaire img
 {
 border-radius: 12% 0% 0% 12%;
-background-color: white;
 height: 132px;
 min-width: 126px;
 max-width: 126px;
@@ -1099,27 +1294,6 @@ background-color: white
 }
 
 
-/* Activité à Marseilles */
-
-.blocs1activ img
-{
-    object-fit: cover;
-    height: 395px;
-    width: 301px;
-    border-radius: 16px 16px 0px 0px;
-    background-color: white;
-
-}
-
-.blocs2activ img
-{
-    border-radius: 16px 16px 0px 0px;
-    width: 301px;
-    background-color: white
-
-}
-
-
 /* Les Card activités */
 .cardactiv
 {
@@ -1127,19 +1301,19 @@ display: column;
 height: auto;
 text-align: left;
 flex:1;
-border-radius: 16px 16px 16px 16px;
+border-radius: 19px 19px 19px 19px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
-
 }
+
 
 .cardactiv1
 {
 display: column;
-height: 227px;
+height: auto;
 text-align: left;
-border-radius: 16px 16px 16px 16px;
+border-radius: 19px 19px 19px 19px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -1148,9 +1322,9 @@ box-shadow: 2px 5px 7px 0px #00000025;
 .cardactiv2
 {
 display: column;
-height: 171px;
+height: auto;
 text-align: left;
-border-radius: 16px 16px 16px 16px;
+border-radius: 19px 19px 19px 19px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -1159,9 +1333,9 @@ box-shadow: 2px 5px 7px 0px #00000025;
 .cardactiv3
 {
 display: column;
-height: 190px;
+height: auto;
 text-align: left;
-border-radius: 16px 16px 16px 16px;
+border-radius: 19px 19px 19px 19px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -1170,36 +1344,14 @@ box-shadow: 2px 5px 7px 0px #00000025;
 .cardactiv4
 {
 display: column;
-height: 202px;
+height: auto;
 text-align: left;
-border-radius: 16px 16px 16px 16px;
+border-radius: 19px 19px 19px 19px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
 }
 
-.conteneuractivglobal
-{
-    height: auto;
-    width: auto;
-    display: column;
-    justify-content:space-between;
-    border: 0px solid blue;
-    margin-bottom: 58px;
-}
-
-
-.conteneuractivblocs
-{
-    width: auto;
-    height: auto;
-    display: flex;
-    grid-template-columns: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border: 0px solid rgb(255, 153, 0);
-    gap: 30px;
-}
 
 .blocs1activ
 {
@@ -1218,7 +1370,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     height: auto;
     width: auto;
     border: 0px solid rgb(50, 214, 0);
-    gap: 50px
+    gap: 30px
 }
 
 
@@ -1231,8 +1383,8 @@ margin-top: 9px;
     font-family: 'Raleway', 'Arial';
     border: 0px solid rgb(255, 0, 0);
     padding-left: 18px;
-    margin-top: 9px;
-    height: 30px;
+    margin-top: 11px;
+    height: 36px;
     font-size: 1.02em;
 
 
@@ -1251,17 +1403,6 @@ footer
     margin: 0px;
     border: 0px solid rgb(31, 0, 167)
 
-
-}
-
-.conteneurfooter
-{
-    display: flex;
-    justify-content:space-between;
-    height: auto;
-    width: auto;
-    background-color:#f5f5f5;
-    padding: 45px;
 
 }
 
@@ -1323,47 +1464,3 @@ footer
 
 
 
-
-
-
-
-
-
-/* Responsive header Grid je n'arrive pas à le faire */
-/*
-En 2 ligne
-.header
-{
-display: grid;
-grid-template-areas: 
-"lo lo lo 0 0 0 0 0 0 0 0 ins"
-"0 activ 0 0 heberge 0";
-grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(2, 1fr);
-
-height: 70px;
-width: auto;
-justify-content: space-between;
-border: 2px solid rgb(6, 194, 0);
-margin-bottom: 35px;
-
-}
-
-/*
-En 1 ligne
-.header
-{
-display: grid;
-grid-template-areas: 
-"lo lo lo lo lo lo lo lo lo heberge activ ins";
-grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(1, 1fr);
-    
-height: 70px;
-width: auto;
-justify-content: space-between;
-border: 2px solid rgb(255, 0, 98);
-margin-bottom: 35px;
-
-}
-*/
