@@ -1128,9 +1128,9 @@ height: auto;
 text-align: left;
 flex:1;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px #00000025;
--webkit-box-shadow: 2px 5px 10px 0px #00000025;
--moz-box-shadow: 2px 5px 10px 0px #00000025;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
 
 }
 
@@ -1140,9 +1140,9 @@ display: column;
 height: 227px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px #00000025;
--webkit-box-shadow: 2px 5px 10px 0px #00000025;
--moz-box-shadow: 2px 5px 10px 0px #00000025;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
 }
 
 .cardactiv2
@@ -1151,9 +1151,9 @@ display: column;
 height: 171px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px #00000025;
--webkit-box-shadow: 2px 5px 10px 0px #00000025;
--moz-box-shadow: 2px 5px 10px 0px #00000025;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
 }
 
 .cardactiv3
@@ -1162,9 +1162,9 @@ display: column;
 height: 190px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px #00000025;
--webkit-box-shadow: 2px 5px 10px 0px #00000025;
--moz-box-shadow: 2px 5px 10px 0px #00000025;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
 }
 
 .cardactiv4
@@ -1173,9 +1173,9 @@ display: column;
 height: 202px;
 text-align: left;
 border-radius: 16px 16px 16px 16px;
-box-shadow: 2px 5px 10px 0px #00000025;
--webkit-box-shadow: 2px 5px 10px 0px #00000025;
--moz-box-shadow: 2px 5px 10px 0px #00000025;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
 }
 
 .conteneuractivglobal
