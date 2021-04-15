@@ -1,10 +1,11 @@
-/* Mon fichier CSS */
+/* Mon fichier CSS
+f0f0f0 */
 
 :root
 {
 --bleureservia: #0065FC;
---background: #f0f0f0;
-
+--bleureservia2: #DEEBFF;
+--background: #F2F2F2;
 
 }
 
@@ -47,6 +48,8 @@ padding-left: 15px;
 padding-right: 15px;
 align-items: center;
 border: 2px solid #ffffff;
+text-decoration: none;
+
 }
     
 /* Mobile */
@@ -58,6 +61,8 @@ padding-left: 15px;
 padding-right: 15px;
 align-items: center;
 border: 2px solid #ffffff;
+text-decoration: none;
+
 }
 
 
@@ -139,11 +144,16 @@ gap:15px;
 width: auto;
 height:50px;
 border-radius: 15px 15px 15px 15px;
-background-color: #0065FC;
+background-color:var(--bleureservia);
 bottom: 0px;
 position: relative;
 right: 13px;
 
+}
+
+.boutonrechercher2:hover
+{
+    background-color: #005ce6; 
 }
 
 /* Mobile */
@@ -420,6 +430,8 @@ border: 0px solid blue;
     padding-right: 15px;
     align-items: center;
     border: 2px solid #ffffff;
+    text-decoration: none;
+
     }
     
     /* Desktop */
@@ -431,6 +443,8 @@ border: 0px solid blue;
     padding-right: 15px;
     align-items: center;
     border: 2px solid #ffffff;
+    text-decoration: none;
+
     }
 
     /* Desktop */
@@ -488,11 +502,17 @@ border: 0px solid blue;
     width: auto;
     height:50px;
     border-radius: 0px 15px 15px 0px;
-    background-color: #0065FC;
+    background-color: var(--bleureservia);
+    text-decoration: none;
     position: relative;
     right:0px;
     bottom: 0px;
     }
+
+    .boutonrechercher:hover
+{
+    background-color: #005ce6; 
+}
 
 /* Desktop */
 .boutonrechercher2
@@ -509,7 +529,7 @@ border: 0px solid blue;
     height: auto;
     width: auto;
     gap:35px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     border: 0px solid rgb(196, 0, 0)
     }
 
@@ -607,6 +627,8 @@ border: 0px solid blue;
         justify-content:space-between;
         border: 0px solid blue;
         margin-bottom: 58px;
+        margin-top: 25px;
+        padding-top: 11px;
     }
 
 /* Desktop */
@@ -861,10 +883,12 @@ opacity: 1;
     width: 50%;
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: none;
     align-items: center;
     text-align: center;
     border: 0px solid #a30000;
     border-bottom: 3px solid #f0f0f0;
+
 }
 
 
@@ -880,10 +904,19 @@ opacity: 1;
 
 }
 
+.bloctexteheader3:hover .texteheader2
+{
+    color: var(--bleureservia);
+}
 
 .bloctexteheader1:hover
 {
     border-top: 2px solid #0065FC;
+}
+
+.bloctexteheader1:hover .texteheader
+{
+    color: var(--bleureservia);
 }
 
 .bloctexteheader2:hover
@@ -891,9 +924,14 @@ opacity: 1;
     border-top: 2px solid #0065FC;
 }
 
+.bloctexteheader2:hover .texteheader
+{
+    color: var(--bleureservia);
+}
+
 .texteheader2
 {
-    color: #0065FC; 
+    color: #000000; 
     font-size: 0.98em;
     font-weight:500;
     text-align: center;
@@ -905,7 +943,7 @@ opacity: 1;
 
 .texteheader
 {
-    color: #0065FC; 
+    color: #000000; 
     font-size: 0.98em;
     font-weight:500;
     text-align: center;
@@ -1067,7 +1105,7 @@ opacity: 1;
     border-radius: 25px;
     border: 2px solid #DEEBFF;
     background-color: #DEEBFF;
-    color: #0065FC;
+    color: var(--bleureservia);
 
 }
 
