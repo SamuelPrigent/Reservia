@@ -132,6 +132,20 @@ width: auto;
 gap:15px;
  }    
 
+/* Mobile */
+.espacesaisie
+{
+    height:auto;
+    width: 60%;
+    font-family: 'Raleway', 'Arial';
+    font-size: 1.05em;
+    font-weight:500;
+    padding:15px;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+}
 
 /* Mobile */
 .boutonrechercher
@@ -214,7 +228,7 @@ width: 360px;
 {
 display: flex;
 justify-content: left;
-width: auto;
+width: 80%;
 height: auto;
 text-align: left;
 text-decoration: none;
@@ -228,7 +242,7 @@ box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
 }
 
 /* Mobile */
-.blocsheberge
+.blocheberge
 {
 display: flex;
 flex-wrap: wrap;
@@ -236,7 +250,7 @@ justify-content:space-around;
 align-items: center;
 margin: auto;
 height: auto;
-gap: 30px;
+gap: 23px;
 margin-bottom: 30px;
 border: 0px solid rgb(15, 0, 155)
  }
@@ -245,7 +259,8 @@ border: 0px solid rgb(15, 0, 155)
 .cardheberge
 {
 display: column;
-width: auto;
+display: grid;
+width: 80%;
 height: auto;
 text-align: left;
 background-color: white;
@@ -256,14 +271,18 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
 -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 }
-  
-/* Mobile */
-.blocsheberge img
+
+
+/* Mobile
+width: 335px;
+height: 112px;
+*/
+.blocheberge img
 {
 border-radius: 16px 16px 0% 0%;
 background-color: white;
 object-fit: cover;
-width: 335px;
+width: 100%;
 height: 112px;
 object-fit: cover;
 
@@ -317,23 +336,27 @@ padding-top: 40px;
 border: 0px solid blue;
 }
 
+/*     
+width: 335px;
+height: 145px;
+*/
 
 /* Mobile */
 .cardactiv img
 {
     object-fit: cover;
-    width: 335px;
+    width: 100%;
     height: 145px;
     border-radius: 16px 16px 0px 0px;
     background-color: white;
-
 }
+
 
 /* Mobile */
 .cardactiv1 img
 {
     border-radius: 16px 16px 0px 0px;
-    width: 335px;
+    width: 100%;
     height: 145px;
     object-fit: cover;
     background-color: white;
@@ -343,7 +366,7 @@ border: 0px solid blue;
 .cardactiv2 img
 {
     border-radius: 16px 16px 0px 0px;
-    width: 335px;
+    width: 100%;
     height: 145px;
     object-fit: cover;
     background-color: white;
@@ -353,7 +376,7 @@ border: 0px solid blue;
 .cardactiv3 img
 {
     border-radius: 16px 16px 0px 0px;
-    width: 335px;
+    width: 100%;
     height: 145px;
     object-fit: cover;
     background-color: white;
@@ -363,12 +386,89 @@ border: 0px solid blue;
 .cardactiv4 img
 {
     border-radius: 16px 16px 0px 0px;
-    width: 335px;
+    width: 100%;
     height: 145px;
     object-fit: cover;
     background-color: white;
 }
 
+
+/* Mobile */
+.cardactiv
+{
+display: column;
+height: auto;
+width: 80%;
+margin: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+}
+
+/* Mobile */
+.cardactiv1
+{
+display: column;
+height: auto;
+width: 80%;
+margin: auto;
+text-align: left;
+text-decoration: none;
+border: 0px solid blue;
+
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Mobile */
+.cardactiv2
+{
+display: column;
+height: auto;
+width: 80%;
+margin: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Mobile */
+.cardactiv3
+{
+display: column;
+height: auto;
+width: 80%;
+margin: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Mobile */
+.cardactiv4
+{
+display: column;
+height: auto;
+width: 80%;
+margin: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
 
 
 
@@ -495,6 +595,20 @@ border: 0px solid blue;
         gap:25px;
     }    
 
+/* Desktop */
+.espacesaisie
+{
+    height:auto;
+    width: 200px;
+    font-family: 'Raleway', 'Arial';
+    font-size: 1.05em;
+    font-weight:500;
+    padding:15px;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+}
 
 /* Desktop */
 .boutonrechercher
@@ -577,7 +691,7 @@ border: 0px solid blue;
     }
 
     /* Desktop */
-    .blocsheberge
+    .blocheberge
     {
         display: flex;
         flex-wrap: wrap;
@@ -608,7 +722,7 @@ border: 0px solid blue;
     }
     
         /* Desktop */
-    .blocsheberge img
+    .blocheberge img
     {
     border-radius: 16px 16px 0% 0%;
     background-color: white;
@@ -631,14 +745,19 @@ border: 0px solid blue;
         padding-top: 11px;
     }
 
+/*   
+display: grid;
+grid-gap: 10px; 
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+*/
+
 /* Desktop */
 .conteneuractivblocs
 {
 width: auto;
 height: auto;
-display: flex;
-grid-template-columns: auto;
 flex-wrap: wrap;
+display: flex;
 justify-content: space-between;
 border: 0px solid rgb(255, 153, 0);
 margin-top: 10px;
@@ -658,6 +777,74 @@ gap: 20px;
     border: 0px solid blue;
 }
     
+/* Desktop */
+.cardactiv
+{
+display: column;
+height: auto;
+width:auto;
+text-align: left;
+flex:1;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+}
+
+/* Desktop */
+.cardactiv1
+{
+display: column;
+height: auto;
+text-align: left;
+text-decoration: none;
+border: 0px solid blue;
+
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Desktop */
+.cardactiv2
+{
+display: column;
+height: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Desktop */
+.cardactiv3
+{
+display: column;
+height: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
+
+/* Desktop */
+.cardactiv4
+{
+display: column;
+height: auto;
+text-align: left;
+text-decoration: none;
+border-radius: 19px 19px 19px 19px;
+box-shadow: 2px 5px 7px 0px #00000025;
+-webkit-box-shadow: 2px 5px 5px 0px #00000025;
+-moz-box-shadow: 2px 2px 5px 0px #00000025;
+}
 
 
 /* Desktop */
@@ -1027,22 +1214,6 @@ opacity: 1;
 }
 
 
-.espacesaisie
-{
-    height:auto;
-    width: 200px;
-    font-family: 'Raleway', 'Arial';
-    font-size: 1.05em;
-    font-weight:500;
-    padding:15px;
-    border-top: 2px solid #f0f0f0;
-    border-bottom: 2px solid #f0f0f0;
-    border-left: 0px solid white;
-    border-right: 0px solid white;
-
-}
-
-
 .logoloupe
 {
     position: relative;
@@ -1344,72 +1515,7 @@ background-color: white
 
 }
 
-
-/* Les Card activités */
-.cardactiv
-{
-display: column;
-height: auto;
-text-align: left;
-flex:1;
-text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
--webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
-}
-
-
-.cardactiv1
-{
-display: column;
-height: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
-}
-
-.cardactiv2
-{
-display: column;
-height: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
-}
-
-.cardactiv3
-{
-display: column;
-height: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
-}
-
-.cardactiv4
-{
-display: column;
-height: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
-}
-
-
-.blocs1activ
+.bloc1activ
 {
     display: flex;
     height: auto;
@@ -1418,7 +1524,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 }
 
 
-.blocs2activ
+.bloc2activ
 {
     display: flex;
     justify-content:space-between;
@@ -1426,7 +1532,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     height: auto;
     width: auto;
     border: 0px solid rgb(50, 214, 0);
-    gap: 30px
+    gap: 30px /* option uniquement visible sur la versions mobile */
 }
 
 
@@ -1501,8 +1607,9 @@ footer
     line-height: 190%;
     font-weight:300;
     text-align: left;
-    text-decoration: none;
-
+    text-decoration: none;   
+    list-style-type: none;
+ 
 }
 
 
