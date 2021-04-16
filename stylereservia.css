@@ -6,6 +6,7 @@ f0f0f0 */
 --bleureservia: #0065FC;
 --bleureservia2: #DEEBFF;
 --background: #F2F2F2;
+--grisbouton: #ebebeb
 
 }
 
@@ -18,12 +19,10 @@ Juste Conteneur hébergement 3 tailles supplémentaire durant le format Desktop 
 - 769px 1069px = modif largeur pour affichage sur 1e colonne
 - 1070px 1344px = modif largeur pour affichage sur 2 colonne 
 -  min1344px = 3 colonnes 
-
-
 */
 
 
-/* Mobile TOUT */
+/* Depart de la versions Mobile avec TOUT */
 @media screen and (max-width: 768px)
 {
 
@@ -116,7 +115,7 @@ display: flex;
 width: auto;
 height: 44px;
 border-radius: 25px;
-border: 2px solid #f5f5f5;
+border: 2px solid var(--grisbouton) ;
 background-color: #ffffff;
  }
     
@@ -251,7 +250,7 @@ width: 360px;
 {
 display: flex;
 justify-content: left;
-width: 77%;
+width: 90%;
 height: auto;
 text-align: left;
 text-decoration: none;
@@ -283,7 +282,7 @@ border: 0px solid rgb(15, 0, 155)
 {
 display: column;
 display: grid;
-width: 77%;
+width: 90%;
 height: auto;
 text-align: left;
 background-color: white;
@@ -422,7 +421,7 @@ height: 145px;
 {
 display: column;
 height: auto;
-width: 77%;
+width: 90%;
 margin: auto;
 text-align: left;
 text-decoration: none;
@@ -437,7 +436,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 {
 display: column;
 height: auto;
-width: 80%;
+width: 90%;
 margin: auto;
 text-align: left;
 text-decoration: none;
@@ -454,7 +453,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 {
 display: column;
 height: auto;
-width: 80%;
+width: 90%;
 margin: auto;
 text-align: left;
 text-decoration: none;
@@ -469,7 +468,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 {
 display: column;
 height: auto;
-width: 80%;
+width: 90%;
 margin: auto;
 text-align: left;
 text-decoration: none;
@@ -484,7 +483,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 {
 display: column;
 height: auto;
-width: 80%;
+width: 90%;
 margin: auto;
 text-align: left;
 text-decoration: none;
@@ -588,7 +587,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
         width: auto;
         height: 44px;
         border-radius: 25px;
-        border: 2px solid #f0f0f0;
+        border: 2px solid var(--grisbouton);
         background-color: #ffffff;
     }
     
@@ -1125,11 +1124,14 @@ justify-content: space-between;
 
 
 
-h1
+.h1
 {
     color: #000000; 
     text-align: left;
     font-size:1.3em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Raleway', 'Arial';
 }
 
@@ -1146,19 +1148,45 @@ h1
 }
 
 
-h3
+.h3
 {
     color: #000000; 
     text-align: left;
     font-size:0.93em;
+    font-weight: 600;
     margin-top: 4px;
     margin-bottom: 4px;
+    font-family: 'Raleway', 'Arial';
+}
+
+
+.h3p
+{
+    color: #000000; 
+    text-align: left;
+    font-size:0.93em;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 15px;
     font-family: 'Raleway', 'Arial';
 
 }
 
+
 /* Texte */
-p 
+.p
+{
+    color: #000000; 
+    font-size: 0.85em;
+    font-weight: 300;
+    font-family: 'Raleway', 'Arial';
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+}
+
+/* Texte */
+.pg
 {
     color: #000000; 
     font-size: 0.93em;
@@ -1408,13 +1436,15 @@ opacity: 1;
     color: rgb(0, 0, 0);
 }
 
+/*    position: relative;
+    left: 2px;
+    top: 2px */
 
 .logoloupe
 {
     position: relative;
-    left: 2px;
-    top: 0.99px
-    
+    left: 1.83px;
+    top: 2.5px
 }
 
 
@@ -1547,24 +1577,25 @@ opacity: 1;
 
 .rondinfo
 {
-    width: 21px;
-    height:21px;
-    border-radius: 50px;
+    min-width: 21px;
+    max-width: 21px;
+    min-height:21px;
+    max-height:21px;
+    border-radius: 50%;
     border: 1px solid #dbdbdb;
     justify-content: center;
     position: relative;
-    bottom: 2px
 }
 
 .logoinfo
 {
     width: 20px;
     height: 20px;
-    position: relative;
-    left: 8.8px;
-    top: 4.4px;
+    position: absolute;
+    left: 8.5px;
+    top: 4.75px;
     font-size: 0.7em;
-    color: #0065FC;
+    color: var(--bleureservia);
     
 }
 
@@ -1623,7 +1654,7 @@ color: #d9d9d9;
 {
     position: relative;
     right: 2.5px;
-    top: 14px;
+    top: 19px;
     font-size: 1.35em;
     color: rgb(0, 0, 0);
 }
@@ -1677,6 +1708,7 @@ height: auto;
 text-align: left;
 margin-left: 12px;
 padding-right: 10px;
+padding-bottom: 5px;
 border: 0px solid rgb(255, 0, 0);
 
 }
