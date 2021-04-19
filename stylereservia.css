@@ -26,6 +26,7 @@ Juste Conteneur hébergement 3 tailles supplémentaire durant le format Desktop 
 @media screen and (max-width: 768px)
 {
 
+
 /* Mobile */
 .header
 {
@@ -215,12 +216,12 @@ border: 0px solid green;
 display: column;
 justify-content:space-between;
 padding: 27px;
-padding-top: 21px;
+padding-top: 20px;
 padding-bottom: 14px;
 height: auto;
 margin-bottom: 7px;
 width: auto;
-background-color:#ffffff;
+background-color:white;
 border-radius: 0px;
 }
 
@@ -245,12 +246,26 @@ height:545px;
 display: column;
 justify-content:space-between;
 margin: auto;
-background-color:#f0f0f0;
+background-color: var(--background) ; 
 padding: 27px;
 padding-top: 25px;
-padding-bottom: 35px;
+padding-bottom: 10px;
 border-radius: 0px;
 }
+
+/* Mobile */
+.blocspopulaire
+    {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin-top: 17px;
+        gap: 12px;
+        border: 0px solid rgb(0, 80, 145);
+    }
+
 
 /*  
 de base
@@ -269,10 +284,13 @@ text-decoration: none;
 border: 5px #ffffff solid;
 background-color: white;
 border-radius: 20px;
+-webkit-tap-highlight-color: transparent;
+
 
 box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
--webkit-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
--moz-box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09);
+
 }
 
 /* Mobile */
@@ -284,7 +302,7 @@ justify-content:space-around;
 align-items: center;
 margin: auto;
 height: auto;
-gap: 23px;
+gap: 15px;
 margin-bottom: 30px;
 border: 0px solid rgb(15, 0, 155)
  }
@@ -301,9 +319,12 @@ background-color: white;
 text-decoration: none;
 border-radius: 20px;
 border: 5px #ffffff solid;
+-webkit-tap-highlight-color: transparent;
+
 box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
--webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+-webkit-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1); 
+box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1);
+
 }
 
 
@@ -318,7 +339,7 @@ border-radius: 16px 16px 0% 0%;
 background-color: white;
 object-fit: cover;
 width: 100%;
-height: 112px;
+height: 115px;
 object-fit: cover;
 
 }
@@ -339,7 +360,7 @@ height: 113px;
         display: column;
         justify-content:space-between;
         border: 0px solid blue;
-        margin-bottom: 26px;
+        margin-bottom: 23px;
     }
 
 /* Mobile */
@@ -353,7 +374,20 @@ height: 113px;
     flex-wrap: wrap;
     justify-content: space-around;
     border: 0px solid rgb(255, 153, 0);
-    gap: 30px;
+    gap: 19px;
+}
+
+
+/* Mobile */
+.bloc2activ
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border: 0px solid rgb(50, 214, 0);
+    gap: 19px /* option uniquement visible sur la versions mobile */
 }
 
 
@@ -365,7 +399,7 @@ display: flex;
 justify-content:space-between;
 height: auto;
 width: auto;
-background-color:#f0f0f0;
+background-color:var(--background);
 padding: 27px;
 padding-top: 45px;
 border: 0px solid blue;
@@ -381,8 +415,8 @@ height: 145px;
 {
     object-fit: cover;
     width: 100%;
-    height: 145px;
-    border-radius: 16px 16px 0px 0px;
+    height: 135px;
+    border-radius: 20px 20px 0px 0px;
     background-color: white;
 }
 
@@ -390,9 +424,9 @@ height: 145px;
 /* Mobile */
 .cardactiv1 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 145px;
+    height: 135px;
     object-fit: cover;
     background-color: white;
 }
@@ -400,9 +434,9 @@ height: 145px;
 /* Mobile */
 .cardactiv2 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 145px;
+    height: 135px;
     object-fit: cover;
     background-color: white;
 }
@@ -410,9 +444,9 @@ height: 145px;
 /* Mobile */
 .cardactiv3 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 145px;
+    height: 135px;
     object-fit: cover;
     background-color: white;
 }
@@ -420,9 +454,9 @@ height: 145px;
 /* Mobile */
 .cardactiv4 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 145px;
+    height: 135px;
     object-fit: cover;
     background-color: white;
 }
@@ -437,10 +471,12 @@ width: 100%;
 margin: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
--webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
+border-radius: 20px 20px 20px 20px;
+-webkit-tap-highlight-color: transparent;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
+-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
+
 }
 
 /* Mobile */
@@ -453,11 +489,11 @@ margin: auto;
 text-align: left;
 text-decoration: none;
 border: 0px solid blue;
-
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
+border-radius: 20px 20px 20px 20px;
+-webkit-tap-highlight-color: transparent;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
+-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 }
 
 /* Mobile */
@@ -469,10 +505,11 @@ width: 100%;
 margin: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
+border-radius: 20px 20px 20px 20px;
+-webkit-tap-highlight-color: transparent;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
+-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 }
 
 /* Mobile */
@@ -484,10 +521,11 @@ width: 100%;
 margin: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
+border-radius: 20px 20px 20px 20px;
+-webkit-tap-highlight-color: transparent;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
+-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 }
 
 /* Mobile */
@@ -499,10 +537,36 @@ width: 100%;
 margin: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
-box-shadow: 2px 5px 7px 0px #00000025;
--webkit-box-shadow: 2px 5px 5px 0px #00000025;
--moz-box-shadow: 2px 2px 5px 0px #00000025;
+border-radius: 20px 20px 20px 20px;
+-webkit-tap-highlight-color: transparent;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
+-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
+box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
+}
+
+/* Mobile // pour pas que le texte reste bleu après clic */
+.afficherplus:hover
+{
+    color: #000000; 
+    text-align: left;
+    font-weight: 600;
+    font-size:1.07em;
+    font-family: 'Raleway', 'Arial';
+    text-decoration: none;
+
+}
+
+/* Mobile // pour pas que le texte reste bleu après clic */
+.textefooter:hover
+{
+    color: #000000; 
+    font-size: 0.94em;
+    line-height: 190%;
+    font-weight:300;
+    text-align: left;
+    text-decoration: none;   
+    list-style-type: none;
+ 
 }
 
 
@@ -681,6 +745,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     .conteneurhebergepopu
     {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     margin: auto;
     height: auto;
@@ -696,7 +761,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     display: column;
     justify-content:space-between;
     padding: 41px;
-    padding-top: 25px;
+    padding-top: 24px;
     height: auto;
     margin-bottom: 0px;
     width: auto;
@@ -731,9 +796,23 @@ object-fit: cover;
     margin: auto;
     background-color:#f0f0f0;
     padding: 41px;
-    padding-top: 25px;
+    padding-top: 24px;
     border-radius: 30px;
     }
+
+    /* Desktop */
+    .blocspopulaire
+    {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin-top: 13px;
+        gap: 26px;
+        border: 0px solid rgb(0, 80, 145);
+    }
+
 
     /* Desktop */
     .cardpopulaire
@@ -760,6 +839,7 @@ object-fit: cover;
         margin: auto;
         height: auto;
         gap: 30px;
+        margin-top: 13px;
         margin-bottom: 30px;
         border: 0px solid rgb(15, 0, 155)
     }
@@ -824,6 +904,18 @@ margin-top: 24px;
 gap: 20px;
 }
 
+/* Desktop */
+.bloc2activ
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border: 0px solid rgb(50, 214, 0);
+    gap: 20px /* option uniquement visible sur la versions mobile */
+}
+
 
 /* Desktop */
 .conteneurfooter
@@ -846,7 +938,7 @@ width:auto;
 text-align: left;
 flex:1;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
+border-radius: 20px 20px 20px 20px;
 box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.14);
 -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
@@ -861,7 +953,7 @@ text-align: left;
 text-decoration: none;
 border: 0px solid blue;
 
-border-radius: 19px 19px 19px 19px;
+border-radius: 20px 20px 20px 20px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -874,7 +966,7 @@ display: column;
 height: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
+border-radius: 20px 20px 20px 20px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -887,7 +979,7 @@ display: column;
 height: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
+border-radius: 20px 20px 20px 20px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -900,7 +992,7 @@ display: column;
 height: auto;
 text-align: left;
 text-decoration: none;
-border-radius: 19px 19px 19px 19px;
+border-radius: 20px 20px 20px 20px;
 box-shadow: 2px 5px 7px 0px #00000025;
 -webkit-box-shadow: 2px 5px 5px 0px #00000025;
 -moz-box-shadow: 2px 2px 5px 0px #00000025;
@@ -913,7 +1005,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     object-fit: cover;
     height: 395px;
     width: 301px;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     background-color: white;
 
 }
@@ -921,7 +1013,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 /* Desktop */
 .cardactiv1 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 301px;
     height: 179px;
     object-fit: cover;
@@ -931,7 +1023,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 /* Desktop */
 .cardactiv2 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 301px;
     height: 120px;
     object-fit: cover;
@@ -941,7 +1033,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
 /* Desktop */
 .cardactiv3 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 301px;
     height: 138px;
     object-fit: cover;
@@ -951,13 +1043,29 @@ box-shadow: 2px 5px 7px 0px #00000025;
 /* Desktop */
 .cardactiv4 img
 {
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     width: 301px;
     height: 152px;
     object-fit: cover;
     background-color: white;
 }
 
+
+.cardheberge:hover
+{
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.233);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0, 0, 0, 0.219);    
+    transition: 0.2s;
+}
+
+.cardpopulaire:hover
+{
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.199);
+    -moz-box-shadow: 0px 10px 2px 0px rgba(0, 0, 0, 0.212);    
+    transition: 0.2s;
+}
 
 
 }
@@ -987,7 +1095,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
     display: column;
     justify-content:space-between;
     padding: 41px;
-    padding-top: 25px;
+    padding-top: 24px;
     height: auto;
     margin-bottom: 0px;
     width: auto;
@@ -1006,6 +1114,7 @@ box-shadow: 2px 5px 7px 0px #00000025;
         margin: auto;
         height: auto;
         gap: 30px;
+        margin-top: 13px;
         margin-bottom: 30px;
         border: 0px solid rgb(15, 0, 155)
     }
@@ -1030,7 +1139,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
  
 
 /* Taille 1 */
-.cardheberge img
+.blocheberge img
     {
     border-radius: 16px 16px 0% 0%;
     background-color: white;
@@ -1061,7 +1170,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
     display: column;
     justify-content:space-between;
     padding: 41px;
-    padding-top: 25px;
+    padding-top: 24px;
     height: auto;
     margin-bottom: 0px;
     width: auto;
@@ -1080,6 +1189,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
         margin: auto;
         height: auto;
         gap: 30px;
+        margin-top: 13px;
         margin-bottom: 30px;
         border: 0px solid rgb(15, 0, 155)
     }
@@ -1104,7 +1214,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
  
 
 /* Taille 2 */
-.cardheberge img
+.blocheberge img
     {
     border-radius: 16px 16px 0% 0%;
     background-color: white;
@@ -1152,7 +1262,7 @@ justify-content: space-between;
 {
     color: #000000; 
     text-align: left;
-    font-size:1.3em;
+    font-size:1.30em;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 13px;
@@ -1176,8 +1286,8 @@ justify-content: space-between;
 {
     color: #000000; 
     text-align: left;
-    font-size:0.93em;
-    font-weight: 600;
+    font-size:0.94em;
+    font-weight: 700;
     margin-top: 4px;
     margin-bottom: 4px;
     font-family: 'Raleway', 'Arial';
@@ -1188,8 +1298,8 @@ justify-content: space-between;
 {
     color: #000000; 
     text-align: left;
-    font-size:0.93em;
-    font-weight: 600;
+    font-size:0.94em;
+    font-weight: 700;
     margin-top: 4px;
     margin-bottom: 15px;
     font-family: 'Raleway', 'Arial';
@@ -1201,11 +1311,11 @@ justify-content: space-between;
 .p
 {
     color: #000000; 
-    font-size: 0.85em;
-    font-weight: 300;
+    font-size: 0.87em;
+    font-weight: 400;
     font-family: 'Raleway', 'Arial';
-    margin-top: 7px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -1233,22 +1343,6 @@ img:hover
 opacity: 1;
 }
 
-
-.cardheberge:hover
-{
-    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
-    transition: 0.2s;
-}
-
-.cardpopulaire:hover
-{
-    box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
-    -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.37);
-    -moz-box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.37);    
-    transition: 0.2s;
-}
 
 /*
 .cardactiv:hover
@@ -1492,8 +1586,8 @@ opacity: 1;
     margin-left: 9px;
     margin-right:20px;
     position: relative;
-    bottom:1px
-
+    bottom:1px;
+    user-select: none
 
 }
 
@@ -1506,7 +1600,8 @@ opacity: 1;
     font-weight: 600;
     margin-top: 12.5px;
     margin-left: 3px;
-    margin-right:23px
+    margin-right:23px;
+    user-select: none
 
 }
 
@@ -1621,12 +1716,15 @@ opacity: 1;
 /* Texte dans Card */
 .texteheberge
 {
-display: column;
+display: flex;
+flex-direction: column;
 width: auto;
 height: auto;
 text-align: left;
 border: 0px solid rgb(255, 0, 0);
+margin-top: 6px;
 padding-left: 13px;
+gap: 3px
 
 }
 
@@ -1638,8 +1736,8 @@ justify-content: left;
 width: auto;
 height: auto;
 text-align: left;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 6px;
+margin-bottom: 6px;
 border: 0px solid rgb(247, 0, 255);
 background-color: white;
 font-size: 0.72em; 
@@ -1654,8 +1752,8 @@ justify-content: left;
 width: auto;
 height: auto;
 text-align: left;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 6px;
+margin-bottom: 6px;
 border: 0px solid rgb(247, 0, 255);
 background-color: white;
 font-size: 0.72em; 
@@ -1702,17 +1800,6 @@ color: #d9d9d9;
 
 }
 
-.blocspopulaire
-{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    width: auto;
-    height: auto;
-    gap: 26px;
-    border: 0px solid rgb(0, 80, 145);
-}
-
 
 
 /* Texte in Card populaire  */
@@ -1753,18 +1840,6 @@ background-color: white
 }
 
 
-.bloc2activ
-{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    border: 0px solid rgb(50, 214, 0);
-    gap: 30px /* option uniquement visible sur la versions mobile */
-}
-
-
 /*     
 margin-top: 9px;    
  */
@@ -1774,10 +1849,12 @@ margin-top: 9px;
     font-family: 'Raleway', 'Arial';
     border: 0px solid rgb(255, 0, 0);
     padding-left: 18px;
-    margin-top: 11px;
-    height: 36px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    padding-top: 6px;
+    padding-bottom:7px ;
     font-size: 1.02em;
-
 
 }
 
@@ -1832,8 +1909,8 @@ footer
 .textefooter
 {
     color: #000000; 
-    font-size: 1em;
-    line-height: 190%;
+    font-size: 0.94em;
+    line-height: 195%;
     font-weight:300;
     text-align: left;
     text-decoration: none;   
@@ -1848,7 +1925,7 @@ footer
     font-size: 1.1em;
     font-weight:600;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 
 }
 
