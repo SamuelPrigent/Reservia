@@ -30,8 +30,10 @@ Juste Conteneur hébergement 3 tailles supplémentaire durant le format Desktop 
 /* Mobile */
 .header
 {
+display: flex;
+justify-content: space-between;
 margin-bottom: 0px;
-margin-top: 0px;
+margin-top: 20px;
 width: auto;
 height: auto;
 padding-left: 18px;
@@ -42,14 +44,24 @@ border: 0px solid blue;
 }
 
 /* Mobile */
+.bloclogo
+{
+    gap: 0px;
+    position: relative;
+    top: -2px;
+}
+
+
+
+/* Mobile */
 .menumobile
 {
 display: flex;
 border: 0px solid blue;
 width:100%;
-height:40px;
+height:30px;
 margin-bottom: 10px;
-margin-top: 0px;
+margin-top: 15px;
 }
 
 /* Mobile */
@@ -168,8 +180,8 @@ gap:15px;
     font-size: 1.05em;
     font-weight:500;
     padding:15px;
-    border-top: 2px solid #f0f0f0;
-    border-bottom: 2px solid #f0f0f0;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
     border-left: 0px solid white;
     border-right: 0px solid white;
     -webkit-tap-highlight-color: transparent;
@@ -239,7 +251,7 @@ border-radius: 0px;
 /* Mobile */
 .blocspopulaire img
 {
-border-radius: 12% 0% 0% 12%;
+border-radius: 16px 0px 0px 16px;
 height: 132px;
 min-width: 34%;
 max-width: 34%;
@@ -589,16 +601,30 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 @media screen and (min-width: 769px)
 {
 
-    /* Desktop */
-    .header
-    {
-    margin: auto;
-    margin-top: 30px;
-    max-width: 1340px;
-    margin-bottom: 20px;
-    border: 0px solid rgb(17, 0, 255);
-    justify-content: center;
-    }
+/* Desktop */
+.header
+{
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding-top: 0px;
+margin-top: 0px;
+max-width: 1340px;
+margin-bottom: 20px;
+border: 2px solid rgb(255, 255, 255);
+height: 90px;
+
+}
+
+/* Desktop */
+.bloclogo
+{
+    gap: 0px;
+    position: relative;
+    top: 25px;
+
+}
+
 
 /* Desktop */
     .menumobile
@@ -634,8 +660,7 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     /* Desktop */
     .conteneur1
     {
-    padding: 0px;
-    border: 0px solid blue;
+        border: 0px solid transparent;
     }
 
     /* Desktop */
@@ -646,8 +671,8 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
-    border: 2px solid #ffffff;
     text-decoration: none;
+    border: 2px solid #ffffff;
 
     }
     
@@ -659,8 +684,9 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
-    border: 2px solid #ffffff;
     text-decoration: none;
+    border: 2px solid #ffffff;
+
 
     }
 
@@ -721,8 +747,8 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     font-size: 1.05em;
     font-weight:500;
     padding:15px;
-    border-top: 2px solid #f0f0f0;
-    border-bottom: 2px solid #f0f0f0;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
     border-left: 0px solid white;
     border-right: 0px solid white;
 }
@@ -795,7 +821,7 @@ height: 132px;
     /* Desktop */
 .blocspopulaire img
 {
-border-radius: 12% 0% 0% 12%;
+border-radius: 16px 0px 0px 16px;
 height: 132px;
 min-width: 126px;
 max-width: 126px;
@@ -1262,13 +1288,14 @@ body
 
 }
 
+ /*
 .header
 {
 display: flex;
 height: 70px;
 justify-content: space-between;
 }
-
+*/
 
 
 .h1
@@ -1359,23 +1386,16 @@ img:hover
 opacity: 1;
 }
 
-.bloclogo
-{
-    gap: 0px;
-    position: relative;
-    top: 10px;
-}
-
 .headerright
 {
     display: flex;
     width: auto;
     height: auto;
     align-items: center;
-    gap: 0px;
+    gap: 37px;
     border: 0px solid rgb(142, 35, 35);
     padding-left: 20px;
-    padding-right: 0px;
+    padding-right: 26px;
 }
 
 
@@ -1434,10 +1454,11 @@ opacity: 1;
 .texteheader2
 {
     color: #000000; 
-    font-size: 0.98em;
-    font-weight:500;
+    font-size: 0.95em;
+    font-weight:400;
     text-align: center;
     text-decoration: none;
+    user-select: none;
     margin-top: 0px;
     padding-top: 0px;
 
@@ -1446,19 +1467,16 @@ opacity: 1;
 .texteheader
 {
     color: #000000; 
-    font-size: 0.98em;
-    font-weight:500;
+    font-size: 0.95em;
+    font-weight:400;
     text-align: center;
     text-decoration: none;
+    user-select: none;
     margin-top: 0px;
     padding-top: 0px;
 
 }
 
-.texteheader:hover
-{
-    border-top: #0065FC solid 0px;
-}
 
 .texteinscription
 {
@@ -1469,6 +1487,7 @@ opacity: 1;
     text-align: center;
     text-decoration: none;
     margin-top: 0px;
+    margin-right: 00px;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -1504,7 +1523,7 @@ opacity: 1;
     min-height: 50px;
     max-height: 50px;
     border-radius: 15px 0px 0px 15px;
-    background-color: #f0f0f0;
+    background-color:var(--background);
     position: relative;
     right:0px;
     bottom: 0px
