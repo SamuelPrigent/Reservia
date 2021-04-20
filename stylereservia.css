@@ -247,15 +247,40 @@ background-color:white;
 border-radius: 0px;
 }
 
+/* height : 132px */
 
-/* Mobile */
-.blocspopulaire img
+
+/* Mobile ancienne methode
+.cardpopulaire img
 {
 border-radius: 16px 0px 0px 16px;
 height: 132px;
-min-width: 34%;
 max-width: 34%;
+min-width: 34%;
 object-fit: cover;
+}
+*/
+
+
+/* Mobile ratio responsive */
+.paddingratio
+{
+padding-bottom: 38%;
+border: 0px solid blue;
+height: auto;
+width: 51%;
+position: relative;
+
+}
+
+/* Mobile ratio responsive */
+.cardpopulaire img
+{
+border-radius: 16px 0px 0px 16px;
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: absolute;
 }
 
 
@@ -264,14 +289,14 @@ object-fit: cover;
 {
 width: auto;
 border: 0px solid blue;
-height:545px;
+height:auto;
 display: column;
 justify-content:space-between;
 margin: auto;
 background-color: var(--background) ; 
 padding: 27px;
-padding-top: 25px;
-padding-bottom: 10px;
+padding-top: 20px;
+padding-bottom: 40px;
 border-radius: 0px;
 }
 
@@ -283,7 +308,7 @@ border-radius: 0px;
         align-items: center;
         width: auto;
         height: auto;
-        margin-top: 17px;
+        margin-top: 10px;
         gap: 12px;
         border: 0px solid rgb(0, 80, 145);
     }
@@ -818,8 +843,9 @@ width: 126px;
 height: 132px;
 */
 
-    /* Desktop */
-.blocspopulaire img
+
+/* Desktop */
+.cardpopulaire img
 {
 border-radius: 16px 0px 0px 16px;
 height: 132px;
@@ -1715,6 +1741,7 @@ text-align: left;
 border: 0px solid rgb(255, 0, 0);
 margin-top: 6px;
 padding-left: 13px;
+margin-bottom: 6px;
 gap: 3px
 
 }
@@ -1728,7 +1755,6 @@ width: auto;
 height: auto;
 text-align: left;
 margin-top: 6px;
-margin-bottom: 6px;
 border: 0px solid rgb(247, 0, 255);
 background-color: white;
 font-size: 0.72em; 
@@ -1744,7 +1770,6 @@ width: auto;
 height: auto;
 text-align: left;
 margin-top: 6px;
-margin-bottom: 6px;
 border: 0px solid rgb(247, 0, 255);
 background-color: white;
 font-size: 0.72em; 
@@ -1761,7 +1786,7 @@ color: #d9d9d9;
 {
     position: relative;
     right: 2.5px;
-    top: 19px;
+    top: 21px;
     font-size: 1.35em;
     color: rgb(0, 0, 0);
 }
@@ -1799,12 +1824,12 @@ color: #d9d9d9;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-width: 250px;
+width: 66%;
 height: auto;
 text-align: left;
-margin-left: 12px;
-padding-right: 10px;
-padding-bottom: 5px;
+padding: 15px;
+padding-top: 5px;
+padding-bottom: 12px;
 border: 0px solid rgb(255, 0, 0);
 
 }
@@ -1921,8 +1946,5 @@ footer
     user-select: none;
 
 }
-
-
-
 
 
