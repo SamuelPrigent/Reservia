@@ -763,6 +763,8 @@ margin-top: 0px;
 margin-bottom: 20px;
 border: 2px solid rgb(255, 255, 255);
 height: 90px;
+width: auto;
+max-width: 1350px;
 padding-left: 40px;
 padding-right: 40px;
 
@@ -814,6 +816,9 @@ padding-right: 40px;
     .conteneur1
     {
         border: 0px solid blue;
+        max-width: 1350px;
+        margin: auto;
+
     }
     
 
@@ -946,6 +951,7 @@ padding-right: 40px;
     margin: auto;
     height: auto;
     width: auto;
+    max-width: 1350px;
     gap:40px;
     border: 0px solid rgb(196, 0, 0)
     }
@@ -1184,6 +1190,8 @@ border: 0px solid rgb(255, 0, 0);
 {
 height: auto;
 width: auto;
+max-width: 1350px;
+margin: auto;
 display: column;
 justify-content:space-between;
 border: 0px solid blue;
@@ -1695,7 +1703,7 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 /* Taille 1 */ 
@@ -1708,7 +1716,7 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 
@@ -2042,7 +2050,7 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 
@@ -2056,7 +2064,7 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 
