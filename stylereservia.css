@@ -27,7 +27,7 @@ Juste Conteneur hébergement 3 tailles supplémentaire durant le format Desktop 
 
 
 /* Mobile */
-.header
+header
 {
 display: flex;
 justify-content: space-between;
@@ -294,7 +294,7 @@ object-fit: cover;
 */
 
 /* Mobile  */
-.h3p
+h4
 {
     color: #000000; 
     text-align: left;
@@ -741,7 +741,7 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 {
 
 /* Desktop */
-.header
+header
 {
 display: flex;
 justify-content: space-between;
@@ -1027,7 +1027,7 @@ position: relative;
 }
 
 /* Desktop  */
-.h3p
+h4
 {
     color: #000000; 
     text-align: left;
@@ -1431,7 +1431,7 @@ Retour > Taille Desktop : min - 1344px (largeur en taille fixe car le conteneur 
 {
 
 /* Taille 1 */
-.header
+header
 {
 display: flex;
 justify-content: space-between;
@@ -1527,7 +1527,7 @@ position: absolute;
 
 
 /* Taille 1 */
-.h3p
+h4
 {
     color: #000000; 
     text-align: left;
@@ -1822,7 +1822,7 @@ background-color: white;
 {
 
 /* Taille 2 */
-.header
+header
 {
 display: flex;
 justify-content: space-between;
@@ -2010,7 +2010,7 @@ padding-top: 11px;
 }
 
 /* Taille 2  */
-.h3p
+h4
 {
     color: #000000; 
     text-align: left;
@@ -2162,11 +2162,6 @@ background-color: white;
 /* Fin taille 2 */
 
 
-
-
-
-
-
 body
 { 
     font-family: 'Raleway', 'Arial';
@@ -2188,7 +2183,7 @@ justify-content: space-between;
 */
 
 
-.h1
+h1
 {
     color: #000000; 
     text-align: left;
@@ -2213,7 +2208,7 @@ justify-content: space-between;
 }
 
 
-.h3
+h3
 {
     color: #000000; 
     text-align: left;
@@ -2227,7 +2222,7 @@ justify-content: space-between;
 
 
 /* Texte */
-.p
+p
 {
     color: #000000; 
     font-size: 0.87em;
@@ -2746,7 +2741,7 @@ footer
 }
 
 
-.textefooterstrong
+h2
 {
     color: #000000; 
     font-size: 1.1em;
