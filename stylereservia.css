@@ -6,6 +6,7 @@
 --bleureservia2: #DEEBFF;
 --background: #F2F2F2;
 --grisbouton: #e0e0e0;
+--bordercolor: #0065FC;
 
 }
 
@@ -176,7 +177,7 @@ gap:15px;
     padding:15px;
     border-top: 2px solid #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
-    border-left: 0px solid white;
+    border-left: 2px solid #F2F2F2;
     border-right: 0px solid white;
     -webkit-tap-highlight-color: transparent;
 }
@@ -185,6 +186,11 @@ gap:15px;
 .espacesaisie:focus
 {
     outline: none !important;
+    border-top: 2px solid var(--bordercolor);
+    border-bottom: 2px solid var(--bordercolor);
+    border-left: 2px solid var(--bordercolor);
+    border-right: 0px solid var(--bordercolor);
+    box-shadow: 0 0 3px #9ecaed;
 }
 
 /* Mobile */
@@ -845,14 +851,22 @@ padding-right: 40px;
     padding:15px;
     border-top: 2px solid #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
-    border-left: 0px solid white;
+    border-left: 2px solid #F2F2F2;
     border-right: 0px solid white;
 }
 
-/* Desktop */
+/* Desktop
+    outline: none !important;
+*/
 .espacesaisie:focus
 {
     outline: none !important;
+    border-top: 2px solid var(--bordercolor);
+    border-bottom: 2px solid var(--bordercolor);
+    border-left: 2px solid var(--bordercolor);
+    border-right: 0px solid var(--bordercolor);
+    box-shadow: 0 0 3px #9ecaed;
+
 }
 
 
@@ -2263,8 +2277,8 @@ opacity: 1;
 
 .boutonlocalisation
 {
-    min-width: 50px;
-    max-width: 50px;
+    min-width: 47px;
+    max-width: 47px;
     min-height: 50px;
     max-height: 50px;
     border-radius: 15px 0px 0px 15px;
