@@ -21,9 +21,10 @@ Juste Conteneur hébergement 3 tailles supplémentaire durant le format Desktop 
 */
 
 
-/* Depart de la versions Mobile avec TOUT */
+/* Versions Mobile 
 @media screen and (max-width: 768px)
 {
+*/
 
 
 /* Mobile */
@@ -269,31 +270,6 @@ object-fit: cover;
 position: absolute;
 }
 
-
-/* Mobile ancienne methode heberge
-.blocheberge img
-{
-border-radius: 16px 16px 0% 0%;
-background-color: white;
-object-fit: cover;
-width: 100%;
-height: 115px;
-object-fit: cover;
-}
-*/
-
-
-/* Mobile ancienne methode populaire
-.cardpopulaire img
-{
-border-radius: 16px 0px 0px 16px;
-height: 132px;
-max-width: 34%;
-min-width: 34%;
-object-fit: cover;
-}
-*/
-
 /* Mobile  */
 h4
 {
@@ -305,7 +281,6 @@ h4
     margin-bottom: 15px;
     font-family: 'Raleway', 'Arial';
 }
-
 
 /* Mobile  */
 .textepopulaire
@@ -321,8 +296,6 @@ padding-top: 5px;
 padding-bottom: 12px;
 border: 0px solid rgb(255, 0, 0);
 }
-
-
 
 /* Mobile ratio responsive populaire */
 .paddingratio
@@ -344,7 +317,6 @@ object-fit: cover;
 position: absolute;
 }
 
-
 /* Mobile */
 .conteneurpopulaire
 {
@@ -355,7 +327,8 @@ display: column;
 justify-content:space-between;
 margin: auto;
 background-color: var(--background) ; 
-padding: 27px;
+padding-left: 27px;
+padding-right: 27px;
 padding-top: 5px;
 padding-bottom: 40px;
 border-radius: 0px;
@@ -374,12 +347,6 @@ border-radius: 0px;
         border: 0px solid rgb(0, 80, 145);
     }
 
-
-/*  
-de base
-width: 360px;
-*/
-
 /* Mobile */
 .cardpopulaire
 {
@@ -396,7 +363,6 @@ border-radius: 20px;
 box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.14);
 -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09); 
 box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09);
-
 }
 
 /* Mobile */
@@ -426,14 +392,10 @@ text-decoration: none;
 border-radius: 20px;
 border: 5px #ffffff solid;
 -webkit-tap-highlight-color: transparent;
-
 box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.14);
 -webkit-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1); 
 box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.1);
-
 }
-
-
 
 /* Mobile */
 .conteneuractivglobal
@@ -481,9 +443,7 @@ width: 335px;
 height: 145px;
 */
 
-
-
-/* Mobile ratio responsive activités */
+/* Mobile ratio activités */
 .paddingratio3
 {
 padding-bottom: 41%;
@@ -504,114 +464,21 @@ object-fit: cover;
 position: absolute;
 }
 
-
-/* Mobile */
-.bloc1activ
-{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    border: 2px solid rgb(221, 0, 0);
-
-}
-
-
-/* Mobile */
-/* gap uniquement visible sur la versions mobile */
-.bloc2activ
-{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    height: auto;
-    width: auto;
-    border: 0px solid rgb(50, 214, 0);
-    gap: 19px ;
-
-}
-
-
 /* Mobile */
 .cardactiv
 {
 display: column;
 height: auto;
 width: 100%;
-margin: auto;
 text-align: left;
 text-decoration: none;
 border-radius: 20px 20px 20px 20px;
+
 -webkit-tap-highlight-color: transparent;
 box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
 -webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
 box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 
-}
-
-/* Mobile */
-.cardactiv1
-{
-display: column;
-height: auto;
-width: 100%;
-margin: auto;
-text-align: left;
-text-decoration: none;
-border: 0px solid blue;
-border-radius: 20px 20px 20px 20px;
--webkit-tap-highlight-color: transparent;
-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
--webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
-}
-
-/* Mobile */
-.cardactiv2
-{
-display: column;
-height: auto;
-width: 100%;
-margin: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 20px 20px 20px 20px;
--webkit-tap-highlight-color: transparent;
-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
--webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
-}
-
-/* Mobile */
-.cardactiv3
-{
-display: column;
-height: auto;
-width: 100%;
-margin: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 20px 20px 20px 20px;
--webkit-tap-highlight-color: transparent;
-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
--webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
-}
-
-/* Mobile */
-.cardactiv4
-{
-display: column;
-height: auto;
-width: 100%;
-margin: auto;
-text-align: left;
-text-decoration: none;
-border-radius: 20px 20px 20px 20px;
--webkit-tap-highlight-color: transparent;
-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.103);
--webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09); 
-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
 }
 
 /* Mobile // pour pas que le texte reste bleu après clic */
@@ -623,20 +490,12 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     font-size:1.07em;
     font-family: 'Raleway', 'Arial';
     text-decoration: none;
-
 }
 
 /* Mobile // pour pas que le texte reste bleu après clic */
 .textefooter:hover
 {
     color: #000000; 
-    font-size: 0.94em;
-    line-height: 190%;
-    font-weight:300;
-    text-align: left;
-    text-decoration: none;   
-    list-style-type: none;
- 
 }
 
 /* Mobile */ 
@@ -649,7 +508,6 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     height: auto;
     vertical-align: middle;
     margin-bottom: 6px;
-
 }
 
 /* Mobile */ 
@@ -679,13 +537,13 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     padding-top: 6px;
     padding-bottom: 7px;
     height: 38px;
-
-
 }
 
 
-
+/* 
 }
+*/
+
 /* Fin Mobile */
 
 
@@ -710,6 +568,8 @@ width: auto;
 max-width: 1350px;
 padding-left: 40px;
 padding-right: 40px;
+padding-bottom: 0px;
+
 
 }
 
@@ -739,7 +599,6 @@ padding-right: 40px;
         font-family: 'Raleway', 'Arial';
         margin-bottom: 10px;
         user-select: none;
-
     }
 
 
@@ -762,9 +621,8 @@ padding-right: 40px;
         max-width: 1350px;
         margin: auto;
         margin-bottom: 25px;
-
+        padding: 0px;
     }
-    
 
     /* Desktop */
     .bloctexteheader1
@@ -776,7 +634,6 @@ padding-right: 40px;
     align-items: center;
     text-decoration: none;
     border: 2px solid #ffffff;
-
     }
     
     /* Desktop */
@@ -838,6 +695,7 @@ padding-right: 40px;
         width: auto;
         height: auto;
         gap:25px;
+        row-gap: 15px;
     }    
 
 /* Desktop */
@@ -855,9 +713,7 @@ padding-right: 40px;
     border-right: 0px solid white;
 }
 
-/* Desktop
-    outline: none !important;
-*/
+/* Desktop */
 .espacesaisie:focus
 {
     outline: none !important;
@@ -873,6 +729,7 @@ padding-right: 40px;
 /* Desktop */
 .boutonrechercher
     {
+    display: initial;
     width: auto;
     height:50px;
     border-radius: 0px 15px 15px 0px;
@@ -911,11 +768,13 @@ padding-right: 40px;
     /* Desktop */
     .conteneurheberge
     {
+    order: -1;
     display: column;
     justify-content:space-between;
     padding-left: 41px;
     padding-right: 41px;    
     padding-bottom: 31px;
+    padding-top: 0px;
     margin-bottom: 0px;
     height: auto;
     width: 100%;
@@ -1034,16 +893,20 @@ box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09);
     .conteneurpopulaire
     {
     width: 335px;
-    height:96.45%;
+    height:92.51%;
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color:var(--background);
+
+    padding-top: 5px;
+    padding-bottom: 40px;
     padding-left: 41px;
     padding-right: 41px;
-    padding-bottom: 21px;
+
     border-radius: 22px;
     border: 0px solid blue;
+
     }
 
     /* Desktop */
@@ -1135,7 +998,11 @@ border: 0px solid rgb(255, 0, 0);
     border: 0px solid blue;
 }
 
-
+/* Desktop */
+.textefooter:hover
+{
+    color: var(--bleureservia); 
+}
 
 /* Desktop */
 .conteneuractivglobal
@@ -1147,6 +1014,7 @@ margin: auto;
 display: column;
 justify-content:space-between;
 border: 0px solid blue;
+padding: 0px;
 margin-bottom: 58px;
 margin-top: 26px;
 padding-top: 11px;
@@ -1278,7 +1146,6 @@ text-decoration: none;
 border: 0px solid rgb(0, 0, 0);
 height: auto;
 width:auto;
-
 
 }
 
@@ -2623,7 +2490,6 @@ footer
     text-decoration: none;   
     list-style-type: none;
     user-select: none;
- 
 }
 
 
