@@ -38,9 +38,8 @@ padding-top: 10px;
 /* ALL (Mobile First) */
 .bloclogo
 {
-    gap: 0px;
-    position: relative;
-    top: -2px;
+    display: flex;
+    align-items: center;
 }
 
 /* ALL (Mobile First) */
@@ -509,7 +508,8 @@ padding-bottom: 0px;
 /* Desktop */
 .bloclogo
 {
-    top: 25px;
+    display: flex;
+    align-items: center;
 }
 
 /* Desktop */
@@ -1993,6 +1993,10 @@ opacity: 1;
 
 .rondfiltres
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bleureservia);
     width: 44px;
     height:44px;
     border-radius: 100%;
@@ -2000,43 +2004,8 @@ opacity: 1;
     background-color: #DEEBFF;
     position: relative;
     right:3px;
-    bottom: 2px
-}
-
-.logofiltres1
-{
-    position: relative;
-    left: 11.5px;
-    top: 12.6px;
-    color: var(--bleureservia);
-    font-size: 1em;
-}
-
-.logofiltres2
-{
-    position: relative;
-    left: 14px;
-    top: 11.2px;
-    color: var(--bleureservia);
-    font-size: 1.25em;   
-}
-
-.logofiltres3
-{
-    position: relative;
-    left: 12.5px;
-    top: 12.5px;
-    color: var(--bleureservia);
-    font-size: 1.15em;
-}
-
-.logofiltres4
-{
-    position: relative;
-    left: 11px;
-    top: 9px;
-    color: var(--bleureservia);
-    font-size: 1.2em;
+    bottom: 2px;
+    white-space: nowrap
 }
 
 .blocinfo
