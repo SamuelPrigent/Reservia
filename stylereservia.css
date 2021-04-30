@@ -25,14 +25,9 @@ display: flex;
 justify-content: space-between;
 width: auto;
 height: auto;
-
-margin-top: 20px;
-margin-bottom: 0px;
-
-padding-left: 18px;
-padding-right: 18px;
-padding-bottom: 10px;
-padding-top: 10px;
+margin: 20px 0px 0px 0px;
+padding:10px 18px 10px;
+margin: auto;
 }
 
 /* ALL (Mobile First) */
@@ -72,7 +67,8 @@ margin-right: auto;
 .conteneur1
 {
 padding: 27px;
-padding-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 25px;
 }
 
 /* ALL (Mobile First) */
@@ -124,7 +120,7 @@ gap:15px;
 .espacesaisie
 {
     height:auto;
-    width: 62%;
+    width: 72%;
     font-family: 'Raleway', 'Arial';
     font-size: 1.05em;
     padding:15px;
@@ -178,7 +174,7 @@ justify-content:space-between;
 margin: auto;
 height: auto;
 width: auto;
-margin-bottom: 10px;
+margin: 0px 0px 10px;
 }
 
 
@@ -190,8 +186,7 @@ display: column;
 justify-content:space-between;
 height: auto;
 width: auto;
-
-padding: 20px 27px 14px 27px;
+padding: 20px 27px 14px;
 margin-bottom: 7px;
 background-color:white;
 border-radius: 0px;
@@ -270,10 +265,7 @@ display: column;
 justify-content:space-between;
 margin: auto;
 background-color: var(--background) ; 
-padding-left: 27px;
-padding-right: 27px;
-padding-top: 5px;
-padding-bottom: 40px;
+padding:20px 27px 40px 27px ;
 border-radius: 0px;
 }
 
@@ -455,7 +447,6 @@ box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.09);
     height: auto;
     vertical-align: middle;
     margin-bottom: 7px;
-    margin-top: 15px;
 }
 
 
@@ -486,14 +477,11 @@ header
 display: flex;
 justify-content: space-between;
 margin: auto;
-padding-top: 0px;
-margin-top: 0px;
-max-width: 1340px;
-margin-bottom: 20px;
-border: 2px solid rgb(255, 255, 255);
 height: 90px;
-padding-left: 35px;
-padding-right: 35px;
+max-width: 1340px;
+border: 2px solid rgb(255, 255, 255);
+margin-bottom: 20px;
+padding:0px 35px 10px;
 }
 
 /* Taille 1 */
@@ -625,9 +613,7 @@ gap:35px;
     flex-direction: column;
     margin: auto;
     background-color:var(--background);
-    padding-left: 31px;
-    padding-right: 31px;
-    padding-bottom: 5px;
+    padding:20px 35px 5px ;
     border-radius: 22px;
     }
 
@@ -716,18 +702,16 @@ box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09);
 /* Taille 1 */
 .conteneurheberge
     {
-    order: 2;
+    order: 1;
     width: 90.5%;
     height: auto;
     display: column;
     justify-content:space-between;
-    margin: auto;
-
-    padding: 20px 31px 31px 41px;
-    margin-bottom: 0px;
+    padding: 20px 35px 41px;
     background-color:var(--background);
     border-radius: 22px;
-    }   
+    margin: auto;    
+}   
 
 
 /* Taille 1 */
@@ -775,7 +759,7 @@ position: relative;
 {
 padding: 0px;
 height: auto;
-width: 97%;
+width: 98%;
 margin: auto;
 display: column;
 justify-content:space-between;
@@ -793,7 +777,6 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 15px;
 }
 
 /* Taille 1 */ 
@@ -805,7 +788,6 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 15px;
 }
 
 
@@ -928,6 +910,24 @@ background-color: white;
 }
 
 
+/* Taille 1 */
+.cardheberge:hover
+{
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
+    -webkit-box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38); 
+    box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38);
+    transition: 0.2s;
+}
+
+/* Taille 1 */
+.cardpopulaire:hover
+{
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
+    -webkit-box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38); 
+    box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38);
+    transition: 0.2s;
+}
+
 
 }
 /* Fin Taille 1  */
@@ -943,14 +943,11 @@ header
 display: flex;
 justify-content: space-between;
 margin: auto;
-padding-top: 0px;
-margin-top: 0px;
 max-width: 1340px;
-margin-bottom: 20px;
 border: 2px solid rgb(255, 255, 255);
 height: 90px;
-padding-left: 35px;
-padding-right: 35px;
+margin-bottom: 20px;
+padding:0px 35px 10px;
 }
 
 /* Taille 2 */
@@ -983,9 +980,7 @@ gap:35px;
     flex-direction: column;
     margin: auto;
     background-color:var(--background);
-    padding-left: 31px;
-    padding-right: 31px;
-    padding-bottom: 5px;
+    padding:20px 35px 5px;
     border-radius: 22px;
     }
 
@@ -1053,15 +1048,13 @@ box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.09);
     order: 2;
     width: 93.3%;
     display: column;
-    justify-content:space-between;
-    padding-left: 31px;
-    padding-right: 31px;    
-    padding-bottom: 31px;
     height: auto;
-    margin-bottom: 0px;
     margin: auto;
+    justify-content:space-between;
+    padding: 20px 35px 31px;
     background-color:var(--background);
     border-radius: 22px;
+    margin: auto;    
     }   
 
 
@@ -1143,7 +1136,6 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 15px;
 }
 
 
@@ -1156,7 +1148,6 @@ padding-top: 11px;
     height: auto;
     vertical-align: middle;
     margin-bottom: 8px;
-    margin-top: 15px;
 }
 
 /* Taille 2 */
@@ -1271,13 +1262,8 @@ header
 border: 2px solid rgb(255, 255, 255);
 height: 90px;
 max-width: 1350px;
-
-padding-top: 0px;
-margin-top: 0px;
+padding:0px 40px 0px;
 margin-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 0px;
 }
 
 /* Desktop */
@@ -1307,10 +1293,9 @@ padding-bottom: 0px;
     order: -1;
     display: column;
     justify-content:space-between;
-    height: 565px;
+    height: 555px;
     width: 100%;
-    padding: 0px 41px 31px 41px;
-    margin-bottom: 0px;
+    padding: 0px 41px 31px;
     background-color:var(--background);
     border-radius: 22px;
     }   
@@ -1332,7 +1317,7 @@ padding-bottom: 0px;
 /* Desktop */
 .paddingratio2
 {
-padding-bottom: 49%;
+padding-bottom: 46%;
 height: auto;
 width: 100%;
 position: relative;
@@ -1360,15 +1345,12 @@ min-width: 150px;
     .conteneurpopulaire
     {
     width: 335px;
-    height:92.51%;
+    height:92.71%;
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color:var(--background);
-    padding-top: 5px;
-    padding-bottom: 40px;
-    padding-left: 41px;
-    padding-right: 41px;
+    padding:0px 41px 40px;
     border-radius: 22px;
     }
 
@@ -1393,25 +1375,6 @@ height: auto;
 }
 
 
-/* Desktop */
-.cardheberge:hover
-{
-    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
-    -webkit-box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38); 
-    box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38);
-    transition: 0.2s;
-}
-
-/* Desktop */
-.cardpopulaire:hover
-{
-    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.219);
-    -webkit-box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38); 
-    box-shadow: 1px 4px 10px -2px rgba(0,0,0,0.38);
-    transition: 0.2s;
-}
-
-
 /* Desktop */ 
 .headerheberge
 {   
@@ -1421,7 +1384,7 @@ height: auto;
     height: auto;
     vertical-align: middle;
     margin-bottom: 10px;
-    margin-top: 23px;
+    margin-top: 21px;
 
 }
 
@@ -1434,7 +1397,7 @@ height: auto;
     height: auto;
     vertical-align: middle;
     margin-bottom: 10px;
-    margin-top: 23px;
+    margin-top: 21px;
 }
 
 /* Desktop */
