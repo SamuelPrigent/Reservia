@@ -531,7 +531,7 @@ display: none;
 /* Taille 1 */
 .conteneurhebergepopu
 {
-gap:35px;
+gap:40px;
 }
 
 /* Taille 1 */
@@ -814,7 +814,7 @@ grid-row: 3/4;
 /* Taille 2 */
 .conteneurhebergepopu
 {
-gap:35px;
+    gap:40px;
 }
 
     /* Taille 2 */
