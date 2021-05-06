@@ -144,6 +144,8 @@ border-radius: 0px 15px 15px 0px;
 background-color:var(--bleureservia);
 bottom: 0px;
 -webkit-tap-highlight-color: transparent;
+outline: none !important;
+border: none;
 }
 
 .conteneur1_search_right2:hover
@@ -432,7 +434,7 @@ height: 90px;
 max-width: 1340px;
 border: 2px solid rgb(255, 255, 255);
 margin-bottom: 20px;
-padding:0px 35px 10px;
+padding:0px 35px 0px;
 }
 
 /* Taille 1 */
@@ -499,6 +501,8 @@ text-decoration: none;
 position: relative;
 right:0px;
 bottom: 0px;
+outline: none !important;
+border: none;
 }
 
 .conteneur1_search_right1:hover
@@ -1438,19 +1442,19 @@ opacity: 1;
 {
     position: relative;
     left: 1.4px;
-    top: 1.7px
+    top:0.75px;
 }
 
 .texterecherche
 {
     font-family: 'Raleway', 'Arial';
     height: auto;
-    font-size: 1.05em;
+    font-size: 1.05rem;
     color: white;    
     font-weight: 600;
-    margin-top: 15px;
     margin-left: 15px;
-    margin-right:18px
+    margin-right:18px;
+    margin-top: 15px;
 }
 
 .blocfilter_text
